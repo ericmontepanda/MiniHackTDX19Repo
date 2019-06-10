@@ -3,7 +3,15 @@
     <types>
         <members>Account</members>
         <members>Contact</members>
+        <members>Park__c</members>
+        <members>Park_Sightings__c</members>
+        <members>Animal__c</members>
         <name>CustomObject</name>
+    </types>
+
+    <types> 
+        <members>CarouselClass</members>
+        <name>ApexClass</name>
     </types>
     <version>45.0</version>
 </Package>

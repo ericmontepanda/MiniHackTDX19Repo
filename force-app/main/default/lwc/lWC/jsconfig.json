@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/LWC": [
+                "../LWC/LWC.js"
+            ],
+            "c/lWC": [
+                "../lWC/lWC.js"
+            ]
+        }
+    }
+}

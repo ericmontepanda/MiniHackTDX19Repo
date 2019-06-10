@@ -53,10 +53,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>ViewCustomerPortalUser</actionName>
         <type>Default</type>
     </actionOverrides>
