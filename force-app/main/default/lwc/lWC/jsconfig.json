@@ -2,12 +2,22 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "c/LWC": [
-                "../LWC/LWC.js"
+            "c/carouselLWC": [
+                "../carouselLWC/carouselLWC.js"
             ],
             "c/lWC": [
                 "../lWC/lWC.js"
             ]
-        }
+        },
+        "experimentalDecorators": true
+    },
+    "include": [
+        "**/*",
+        "../../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
     }
 }
