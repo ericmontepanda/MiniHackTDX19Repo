@@ -8,6 +8,12 @@
             ],
             "c/lWC": [
                 "lWC/lWC.js"
+            ],
+            "c/recentAccounts": [
+                "recentAccounts/recentAccounts.js"
+            ],
+            "c/chartJS": [
+                "chartJS/chartJS.js"
             ]
         }
     },

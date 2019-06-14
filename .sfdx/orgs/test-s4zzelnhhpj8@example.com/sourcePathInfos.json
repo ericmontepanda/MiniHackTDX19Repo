@@ -63,10 +63,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc",
             "isDirectory": true,
-            "size": 192,
-            "modifiedTime": 1560200449724,
-            "changeTime": 1560200449724,
-            "contentHash": "4301a70226b15bfac9a53af336af2892483dc253",
+            "size": 256,
+            "modifiedTime": 1560471047231,
+            "changeTime": 1560471047231,
+            "contentHash": "0f4cd6a0e475422e2c0cb16fa57ae4d916522aa8",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -77,14 +77,13 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/lWC",
             "isDirectory": true,
-            "size": 192,
-            "modifiedTime": 1560132877019,
-            "changeTime": 1560132877019,
-            "contentHash": "3217ccad1bc05a25d67000a32daf4952986b373b",
+            "size": 224,
+            "modifiedTime": 1560361970933,
+            "changeTime": 1560361970933,
+            "contentHash": "80506211422dc3ab8a4357fca6c81d72d0e4982d",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -1090,10 +1089,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes",
             "isDirectory": true,
-            "size": 128,
-            "modifiedTime": 1560134056251,
-            "changeTime": 1560134056251,
-            "contentHash": "e4d3316cf6d86a7ab3fe8d7bba5687f65200c4e3",
+            "size": 192,
+            "modifiedTime": 1560378563426,
+            "changeTime": 1560378563426,
+            "contentHash": "6e76bf3e8fd0e75bbae9dd43897deea58b288e16",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1738,14 +1737,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/carouselLWC/carouselLWC.html",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/carouselLWC/carouselLWC.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1871,
             "modifiedTime": 1560216718238,
             "changeTime": 1560216718238,
-            "contentHash": "19538512708a4a0b898e88f768f676224997d6f5"
+            "contentHash": "19538512708a4a0b898e88f768f676224997d6f5",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1770,6 +1769,136 @@
             "modifiedTime": 1560202368439,
             "changeTime": 1560202368439,
             "contentHash": "40f2f5fd581375d27cf48de23b93f00f79a20e11",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1560378308363,
+            "changeTime": 1560378308363,
+            "contentHash": "ca2d4382f921e83cee45052adbbd790615da4a93",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.html",
+            "isDirectory": false,
+            "size": 310,
+            "modifiedTime": 1560538780322,
+            "changeTime": 1560538780322,
+            "contentHash": "c42650c354cccf6b16b12c0c276640787125de24",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1488,
+            "modifiedTime": 1560538812818,
+            "changeTime": 1560538812818,
+            "contentHash": "9974ef4a56e45e328776840dc7cbfd0f7c6080d4"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.js-meta.xml",
+            "isDirectory": false,
+            "size": 302,
+            "modifiedTime": 1560381537023,
+            "changeTime": 1560381537023,
+            "contentHash": "655811cdedab4b25da94055137f266f7bb696e11",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/recentAccounts.cls",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/recentAccounts.cls",
+            "isDirectory": false,
+            "size": 276,
+            "modifiedTime": 1560378696509,
+            "changeTime": 1560378696509,
+            "contentHash": "42f6c54f2877eccfcb8cc55aa863fd081b13537f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/recentAccounts.cls-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/recentAccounts.cls-meta.xml",
+            "isDirectory": false,
+            "size": 192,
+            "modifiedTime": 1560378563426,
+            "changeTime": 1560378563426,
+            "contentHash": "71bb78afb98ef369ca1590969b20ad32cc1f6001",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/chartJS",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/chartJS",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1560471047232,
+            "changeTime": 1560471047232,
+            "contentHash": "e7c624f88944daadb330e6693f9b2febb01c6071",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/chartJS/chartJS.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/chartJS/chartJS.html",
+            "isDirectory": false,
+            "size": 496,
+            "modifiedTime": 1560471506536,
+            "changeTime": 1560471506536,
+            "contentHash": "f793465e37f5effb02621a6d92d48bb3dcfc5c70",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/chartJS/chartJS.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/chartJS/chartJS.js",
+            "isDirectory": false,
+            "size": 97,
+            "modifiedTime": 1560471047231,
+            "changeTime": 1560471047231,
+            "contentHash": "7773b728c8d251beead584b27af8dedd2cf4d11f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/chartJS/chartJS.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/chartJS/chartJS.js-meta.xml",
+            "isDirectory": false,
+            "size": 222,
+            "modifiedTime": 1560471047232,
+            "changeTime": 1560471047232,
+            "contentHash": "035fe781d1dae8dfdeff33547e1e710c5b495549",
             "isMetadataFile": true,
             "state": "u"
         }
