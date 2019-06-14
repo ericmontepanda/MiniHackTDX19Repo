@@ -1779,7 +1779,7 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts",
             "isDirectory": true,
             "size": 160,
-            "modifiedTime": 1560378308363,
+            "modifiedTime": 1560542469130,
             "changeTime": 1560378308363,
             "contentHash": "ca2d4382f921e83cee45052adbbd790615da4a93",
             "isMetadataFile": false,
@@ -1789,27 +1789,27 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.html",
         {
+            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.html",
             "isDirectory": false,
-            "size": 310,
-            "modifiedTime": 1560538780322,
-            "changeTime": 1560538780322,
-            "contentHash": "c42650c354cccf6b16b12c0c276640787125de24",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 328,
+            "modifiedTime": 1560542590696,
+            "changeTime": 1560542590696,
+            "contentHash": "9c6ddb7fb3fec72e9cf3c089f74ab3f47a26d14d"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.js",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.js",
             "isDirectory": false,
+            "size": 1490,
+            "modifiedTime": 1560542532193,
+            "changeTime": 1560542532193,
+            "contentHash": "d33dd78e6f71b46da9ce33b99bb898db1bd36c73",
             "isMetadataFile": false,
-            "size": 1488,
-            "modifiedTime": 1560538812818,
-            "changeTime": 1560538812818,
-            "contentHash": "9974ef4a56e45e328776840dc7cbfd0f7c6080d4"
+            "state": "u"
         }
     ],
     [

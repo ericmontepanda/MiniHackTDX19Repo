@@ -36,7 +36,7 @@ export default class RecentAccounts extends LightningElement {
                 loadScript(this, wordcloud)
             ])
             .then(() => {
-                this.initializeWordCloud();
+                //this.initializeWordCloud();
             })
             .catch(error => {
                 this.dispatchEvent(

@@ -1779,7 +1779,7 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts",
             "isDirectory": true,
             "size": 160,
-            "modifiedTime": 1560378308363,
+            "modifiedTime": 1560542469130,
             "changeTime": 1560378308363,
             "contentHash": "ca2d4382f921e83cee45052adbbd790615da4a93",
             "isMetadataFile": false,
@@ -1793,10 +1793,10 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.html",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 310,
-            "modifiedTime": 1560538780322,
-            "changeTime": 1560538780322,
-            "contentHash": "c42650c354cccf6b16b12c0c276640787125de24"
+            "size": 326,
+            "modifiedTime": 1560542582548,
+            "changeTime": 1560542582548,
+            "contentHash": "ea804b8e941628e78823beb93594fbe6059b4c22"
         }
     ],
     [
@@ -1804,10 +1804,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.js",
             "isDirectory": false,
-            "size": 1482,
-            "modifiedTime": 1560538646318,
-            "changeTime": 1560538646318,
-            "contentHash": "e20a96c74e8320dbfd3605f230d33b08546edc4b",
+            "size": 1490,
+            "modifiedTime": 1560542532193,
+            "changeTime": 1560542532193,
+            "contentHash": "d33dd78e6f71b46da9ce33b99bb898db1bd36c73",
             "isMetadataFile": false,
             "state": "u"
         }
