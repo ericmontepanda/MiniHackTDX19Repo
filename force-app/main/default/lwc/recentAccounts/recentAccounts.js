@@ -16,7 +16,7 @@ import getRecentAcc from '@salesforce/apex/recentAccounts.recAcc';
 
 export default class RecentAccounts extends LightningElement {
     @track error;
-
+    WordCloud;
     @wire(getRecentAcc) recAcc;
     cloudInit = false;
 
@@ -36,7 +36,7 @@ export default class RecentAccounts extends LightningElement {
                 loadScript(this, wordcloud)
             ])
             .then(() => {
-                //this.initializeWordCloud();
+                this.initializeWordCloud();
             })
             .catch(error => {
                 this.dispatchEvent(
@@ -50,8 +50,9 @@ export default class RecentAccounts extends LightningElement {
     }
 
     initializeWordCloud(){
-        //console.log('>>> my list' + this.list);
-        WordCloud(this.template.querySelector('canvas.my_canvas'), {
+        console.log('>>> my list' + this.template.querySelector('canvas'));
+        console.log('>>> my list' + this.list);
+        WordCloud(this.template.querySelector('canvas'), {
             list: this.list 
         });
     } 
