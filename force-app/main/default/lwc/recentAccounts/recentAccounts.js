@@ -19,7 +19,7 @@ export default class RecentAccounts extends LightningElement {
     cloudInit = false;
     
     list = [
-        'foo', 12],
+        ['foo', 12],
         ['bar', 6],
         ['foo', 20],
         ['bar', 18]

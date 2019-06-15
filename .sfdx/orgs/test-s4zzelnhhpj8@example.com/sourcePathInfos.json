@@ -32,14 +32,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 448,
             "modifiedTime": 1560545121893,
             "changeTime": 1560545121893,
-            "contentHash": "c1297a94a300663f86bbb89c3e7f805b2409a089"
+            "contentHash": "c1297a94a300663f86bbb89c3e7f805b2409a089",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -62,10 +62,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc",
             "isDirectory": true,
-            "size": 256,
-            "modifiedTime": 1560471047231,
-            "changeTime": 1560471047231,
-            "contentHash": "0f4cd6a0e475422e2c0cb16fa57ae4d916522aa8",
+            "size": 288,
+            "modifiedTime": 1560556128444,
+            "changeTime": 1560556128444,
+            "contentHash": "c6ddfe43f8233e96089411cf7fae5a10841d722e",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -1372,14 +1372,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/objects/Park__c/Park__c.object-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/objects/Park__c/Park__c.object-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 2328,
             "modifiedTime": 1560545121831,
             "changeTime": 1560545121831,
-            "contentHash": "624e5b0324da951a899864d8b40519de6d7eec16"
+            "contentHash": "624e5b0324da951a899864d8b40519de6d7eec16",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -1790,10 +1790,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.html",
             "isDirectory": false,
-            "size": 321,
-            "modifiedTime": 1560542682472,
-            "changeTime": 1560542682472,
-            "contentHash": "d6d64126c643977c4d6cbbd3ba7a3571789c8d82",
+            "size": 371,
+            "modifiedTime": 1560555842134,
+            "changeTime": 1560555842134,
+            "contentHash": "447ba9151c312b715a9b8afb09a12964815df450",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1803,10 +1803,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.js",
             "isDirectory": false,
-            "size": 1566,
-            "modifiedTime": 1560544079467,
-            "changeTime": 1560544079467,
-            "contentHash": "8cf36af8199f40e902cc762eec3eb1e6f8d1bcfd",
+            "size": 1453,
+            "modifiedTime": 1560558730369,
+            "changeTime": 1560556580436,
+            "contentHash": "557b486c939c0fbb844dfefb6b9d397b305391a6",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1905,326 +1905,378 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/staticresources/wordcloud2.resource-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/staticresources/wordcloud2.resource-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 209,
             "modifiedTime": 1560545121814,
             "changeTime": 1560545121814,
-            "contentHash": "c5ae89a08d0469ad1b16ff5ef26d4cf4b7ffe209"
+            "contentHash": "c5ae89a08d0469ad1b16ff5ef26d4cf4b7ffe209",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/staticresources/wordcloud2.js",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/staticresources/wordcloud2.js",
             "isDirectory": false,
+            "size": 37229,
+            "modifiedTime": 1560556228372,
+            "changeTime": 1560556228372,
+            "contentHash": "ffbc421b225b69f28d5f5463fcba0f30765b0e16",
             "isMetadataFile": false,
-            "size": 37327,
-            "modifiedTime": 1560545121816,
-            "changeTime": 1560545121816,
-            "contentHash": "d29f7873624f9616a7b164a3db496a706043c21d"
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/staticresources/wordcloud.resource-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/staticresources/wordcloud.resource-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 209,
             "modifiedTime": 1560545121819,
             "changeTime": 1560545121819,
-            "contentHash": "c5ae89a08d0469ad1b16ff5ef26d4cf4b7ffe209"
+            "contentHash": "c5ae89a08d0469ad1b16ff5ef26d4cf4b7ffe209",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/staticresources/wordcloud.js",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/staticresources/wordcloud.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 434959,
             "modifiedTime": 1560545121820,
             "changeTime": 1560545121820,
-            "contentHash": "058bab70e95d34b0640ab14288f8bc93828708f0"
+            "contentHash": "058bab70e95d34b0640ab14288f8bc93828708f0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/layouts/Park__c-Park Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/layouts/Park__c-Park Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 3527,
             "modifiedTime": 1560545121837,
             "changeTime": 1560545121837,
-            "contentHash": "633050c69eaf47688defcc973b0dd66631a5fa47"
+            "contentHash": "633050c69eaf47688defcc973b0dd66631a5fa47",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/layouts/Park_Sightings__c-Park Sighting Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/layouts/Park_Sightings__c-Park Sighting Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 2495,
             "modifiedTime": 1560545121839,
             "changeTime": 1560545121839,
-            "contentHash": "dad7869c8867c7e532e6681e40cfb9bb91d63467"
+            "contentHash": "dad7869c8867c7e532e6681e40cfb9bb91d63467",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/layouts/Animal__c-Animal Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/layouts/Animal__c-Animal Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 3347,
             "modifiedTime": 1560545121842,
             "changeTime": 1560545121842,
-            "contentHash": "13a0ce2a8c8f6054ceff2e870d6cb43a788eccde"
+            "contentHash": "13a0ce2a8c8f6054ceff2e870d6cb43a788eccde",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/flexipages/WordCloud.flexipage-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/flexipages/WordCloud.flexipage-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 788,
             "modifiedTime": 1560545121843,
             "changeTime": 1560545121843,
-            "contentHash": "a9170c03eb193599c90db6de4a6b8ba1235a1dfa"
+            "contentHash": "a9170c03eb193599c90db6de4a6b8ba1235a1dfa",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/flexipages/Park_Record_Page.flexipage-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/flexipages/Park_Record_Page.flexipage-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4848,
             "modifiedTime": 1560545121847,
             "changeTime": 1560545121847,
-            "contentHash": "b0c8c415920eb848920e70b2184ed02713b27bb8"
+            "contentHash": "b0c8c415920eb848920e70b2184ed02713b27bb8",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/tabs/Park_Sightings__c.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/tabs/Park_Sightings__c.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 223,
             "modifiedTime": 1560545121849,
             "changeTime": 1560545121849,
-            "contentHash": "063f8013efa57d1484f8fb4a53d7d94bfbb4c195"
+            "contentHash": "063f8013efa57d1484f8fb4a53d7d94bfbb4c195",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/tabs/Park__c.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/tabs/Park__c.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 223,
             "modifiedTime": 1560545121850,
             "changeTime": 1560545121850,
-            "contentHash": "01e1520670e7de1ffa1bdb91368f78ce2782a1db"
+            "contentHash": "01e1520670e7de1ffa1bdb91368f78ce2782a1db",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/tabs/Animal__c.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/tabs/Animal__c.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1560545121851,
             "changeTime": 1560545121851,
-            "contentHash": "2fa3f041d5583326b71de41103a1438aa7fbc35b"
+            "contentHash": "2fa3f041d5583326b71de41103a1438aa7fbc35b",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 23422,
             "modifiedTime": 1560545121864,
             "changeTime": 1560545121864,
-            "contentHash": "afbe158be3a22d7af3f2953d112fc4553517cab0"
+            "contentHash": "afbe158be3a22d7af3f2953d112fc4553517cab0",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8279,
             "modifiedTime": 1560545121874,
             "changeTime": 1560545121874,
-            "contentHash": "6fd4cca7047d957044bd7e8e1aa7a40eca2c957a"
+            "contentHash": "6fd4cca7047d957044bd7e8e1aa7a40eca2c957a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8617,
             "modifiedTime": 1560545121885,
             "changeTime": 1560545121885,
-            "contentHash": "d1ac6aa055fc6929af94c622a20e8f5e7c4f2d23"
+            "contentHash": "d1ac6aa055fc6929af94c622a20e8f5e7c4f2d23",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8279,
             "modifiedTime": 1560545121889,
             "changeTime": 1560545121889,
-            "contentHash": "6fd4cca7047d957044bd7e8e1aa7a40eca2c957a"
+            "contentHash": "6fd4cca7047d957044bd7e8e1aa7a40eca2c957a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/settings/Security.settings-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/settings/Security.settings-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 2632,
             "modifiedTime": 1560545121892,
             "changeTime": 1560545121892,
-            "contentHash": "a0cadba26057efa4350b58d02a7bcf1d669f020a"
+            "contentHash": "a0cadba26057efa4350b58d02a7bcf1d669f020a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/corsWhitelistOrigins/https_google_com.corsWhitelistOrigin-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/corsWhitelistOrigins/https_google_com.corsWhitelistOrigin-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 182,
             "modifiedTime": 1560545121893,
             "changeTime": 1560545121893,
-            "contentHash": "a24020112409c2a8482762c7f6fcba3669bcea06"
+            "contentHash": "a24020112409c2a8482762c7f6fcba3669bcea06",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/staticresources",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/staticresources",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1560545121820,
             "changeTime": 1560545121820,
-            "contentHash": "60f1bed91f52a79079f79cfb08f7750f0c4f5296"
+            "contentHash": "60f1bed91f52a79079f79cfb08f7750f0c4f5296",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/layouts",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/layouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 160,
             "modifiedTime": 1560545121842,
             "changeTime": 1560545121842,
-            "contentHash": "a26cef0967f1f4ac1c71bad1153cefbfc618f8dd"
+            "contentHash": "a26cef0967f1f4ac1c71bad1153cefbfc618f8dd",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/flexipages",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/flexipages",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 128,
             "modifiedTime": 1560545121847,
             "changeTime": 1560545121847,
-            "contentHash": "cabecc57f46566b4596ca35db718ccb4ba0ecb10"
+            "contentHash": "cabecc57f46566b4596ca35db718ccb4ba0ecb10",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/tabs",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/tabs",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 160,
             "modifiedTime": 1560545121851,
             "changeTime": 1560545121851,
-            "contentHash": "3db53698e998f08b13597ded0627fd41af37a6e9"
+            "contentHash": "3db53698e998f08b13597ded0627fd41af37a6e9",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1560545121889,
             "changeTime": 1560545121889,
-            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/settings",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/settings",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1560545121891,
             "changeTime": 1560545121891,
-            "contentHash": "e364e4d3c503804e0ca6d6bb92ab9cc0ceac2327"
+            "contentHash": "e364e4d3c503804e0ca6d6bb92ab9cc0ceac2327",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/corsWhitelistOrigins",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/corsWhitelistOrigins",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1560545121893,
             "changeTime": 1560545121893,
-            "contentHash": "d35cda53fc9ed8e10fbf1988769b41b09f34f11c"
+            "contentHash": "d35cda53fc9ed8e10fbf1988769b41b09f34f11c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/wordcloud",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/wordcloud",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1560556128446,
+            "changeTime": 1560556128446,
+            "contentHash": "200ebfdd84b81e7eecee9c0f979f69e7a2756dbe",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/wordcloud/wordcloud.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/wordcloud/wordcloud.html",
+            "isDirectory": false,
+            "size": 150,
+            "modifiedTime": 1560556149980,
+            "changeTime": 1560556149980,
+            "contentHash": "c88ea0d003ab3d5a247ab983afda5d0da43bc9ce",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/wordcloud/wordcloud.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/wordcloud/wordcloud.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 99,
+            "modifiedTime": 1560558675738,
+            "changeTime": 1560558675738,
+            "contentHash": "c05d12c1270abf10e2e1b6da386aa0766d12dafc"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/wordcloud/wordcloud.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/wordcloud/wordcloud.js-meta.xml",
+            "isDirectory": false,
+            "size": 297,
+            "modifiedTime": 1560556193587,
+            "changeTime": 1560556193587,
+            "contentHash": "6457a1f557233ef35a326301ce745e665e6ed129",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]

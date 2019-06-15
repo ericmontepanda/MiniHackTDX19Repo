@@ -5,14 +5,17 @@
             "c/carouselLWC": [
                 "../carouselLWC/carouselLWC.js"
             ],
+            "c/chartJS": [
+                "../chartJS/chartJS.js"
+            ],
             "c/lWC": [
                 "../lWC/lWC.js"
             ],
             "c/recentAccounts": [
                 "../recentAccounts/recentAccounts.js"
             ],
-            "c/chartJS": [
-                "../chartJS/chartJS.js"
+            "c/wordcloud": [
+                "../wordcloud/wordcloud.js"
             ]
         },
         "experimentalDecorators": true

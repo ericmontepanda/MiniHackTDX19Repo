@@ -12,81 +12,83 @@
 if (!window.setImmediate) {
   window.setImmediate = (function setupSetImmediate() {
     return window.msSetImmediate ||
-    window.webkitSetImmediate ||
-    window.mozSetImmediate ||
-    window.oSetImmediate ||
-    (function setupSetZeroTimeout() {
-      if (!window.postMessage || !window.addEventListener) {
-        return null;
-      }
+      window.webkitSetImmediate ||
+      window.mozSetImmediate ||
+      window.oSetImmediate ||
+      (function setupSetZeroTimeout() {
+        if (!window.postMessage || !window.addEventListener) {
+          return null;
+        }
 
-      var callbacks = [undefined];
-      var message = 'zero-timeout-message';
+        var callbacks = [undefined];
+        var message = 'zero-timeout-message';
 
-      // Like setTimeout, but only takes a function argument.  There's
-      // no time argument (always zero) and no arguments (you have to
-      // use a closure).
-      var setZeroTimeout = function setZeroTimeout(callback) {
-        var id = callbacks.length;
-        callbacks.push(callback);
-        window.postMessage(message + id.toString(36), '*');
+        // Like setTimeout, but only takes a function argument.  There's
+        // no time argument (always zero) and no arguments (you have to
+        // use a closure).
+        var setZeroTimeout = function setZeroTimeout(callback) {
+          var id = callbacks.length;
+          callbacks.push(callback);
+          window.postMessage(message + id.toString(36), '*');
 
-        return id;
+          return id;
+        };
+
+        window.addEventListener('message', function setZeroTimeoutMessage(evt) {
+          // Skipping checking event source, retarded IE confused this window
+          // object with another in the presence of iframe
+          if (typeof evt.data !== 'string' ||
+            evt.data.substr(0, message.length) !== message
+            /* ||
+                        evt.source !== window */
+          ) {
+            return;
+          }
+
+          evt.stopImmediatePropagation();
+
+          var id = parseInt(evt.data.substr(message.length), 36);
+          if (!callbacks[id]) {
+            return;
+          }
+
+          callbacks[id]();
+          callbacks[id] = undefined;
+        }, true);
+
+        /* specify clearImmediate() here since we need the scope */
+        window.clearImmediate = function clearZeroTimeout(id) {
+          if (!callbacks[id]) {
+            return;
+          }
+
+          callbacks[id] = undefined;
+        };
+
+        return setZeroTimeout;
+      })() ||
+      // fallback
+      function setImmediateFallback(fn) {
+        window.setTimeout(fn, 0);
       };
-
-      window.addEventListener('message', function setZeroTimeoutMessage(evt) {
-        // Skipping checking event source, retarded IE confused this window
-        // object with another in the presence of iframe
-        if (typeof evt.data !== 'string' ||
-            evt.data.substr(0, message.length) !== message/* ||
-            evt.source !== window */) {
-          return;
-        }
-
-        evt.stopImmediatePropagation();
-
-        var id = parseInt(evt.data.substr(message.length), 36);
-        if (!callbacks[id]) {
-          return;
-        }
-
-        callbacks[id]();
-        callbacks[id] = undefined;
-      }, true);
-
-      /* specify clearImmediate() here since we need the scope */
-      window.clearImmediate = function clearZeroTimeout(id) {
-        if (!callbacks[id]) {
-          return;
-        }
-
-        callbacks[id] = undefined;
-      };
-
-      return setZeroTimeout;
-    })() ||
-    // fallback
-    function setImmediateFallback(fn) {
-      window.setTimeout(fn, 0);
-    };
   })();
 }
 
 if (!window.clearImmediate) {
   window.clearImmediate = (function setupClearImmediate() {
     return window.msClearImmediate ||
-    window.webkitClearImmediate ||
-    window.mozClearImmediate ||
-    window.oClearImmediate ||
-    // "clearZeroTimeout" is implement on the previous block ||
-    // fallback
-    function clearImmediateFallback(timer) {
-      window.clearTimeout(timer);
-    };
+      window.webkitClearImmediate ||
+      window.mozClearImmediate ||
+      window.oClearImmediate ||
+      // "clearZeroTimeout" is implement on the previous block ||
+      // fallback
+      function clearImmediateFallback(timer) {
+        window.clearTimeout(timer);
+      };
   })();
 }
 
-(function(global) {
+(function (global) {
 
   // Check if WordCloud can run on this browser
   var isSupported = (function isSupported() {
@@ -134,7 +136,7 @@ if (!window.clearImmediate) {
     while (size) {
       ctx.font = size.toString(10) + 'px sans-serif';
       if ((ctx.measureText('\uFF37').width === hanWidth) &&
-          (ctx.measureText('m').width) === mWidth) {
+        (ctx.measureText('m').width) === mWidth) {
         return (size + 1);
       }
 
@@ -149,8 +151,7 @@ if (!window.clearImmediate) {
 
   // Based on http://jsfromhell.com/array/shuffle
   var shuffleArray = function shuffleArray(arr) {
-    for (var j, x, i = arr.length; i;
-      j = Math.floor(Math.random() * i),
+    for (var j, x, i = arr.length; i; j = Math.floor(Math.random() * i),
       x = arr[--i], arr[i] = arr[j],
       arr[j] = x) {}
     return arr;
@@ -165,7 +166,7 @@ if (!window.clearImmediate) {
       elements = [elements];
     }
 
-    elements.forEach(function(el, i) {
+    elements.forEach(function (el, i) {
       if (typeof el === 'string') {
         elements[i] = document.getElementById(el);
         if (!elements[i]) {
@@ -180,13 +181,13 @@ if (!window.clearImmediate) {
     var settings = {
       list: [],
       fontFamily: '"Trebuchet MS", "Heiti TC", "微軟正黑體", ' +
-                  '"Arial Unicode MS", "Droid Fallback Sans", sans-serif',
+        '"Arial Unicode MS", "Droid Fallback Sans", sans-serif',
       fontWeight: 'normal',
       color: 'random-dark',
       minSize: 0, // 0 to disable
       weightFactor: 1,
       clearCanvas: true,
-      backgroundColor: '#fff',  // opaque white = rgba(255, 255, 255, 1)
+      backgroundColor: '#fff', // opaque white = rgba(255, 255, 255, 1)
 
       gridSize: 8,
       drawOutOfBound: false,
@@ -200,7 +201,7 @@ if (!window.clearImmediate) {
       abortThreshold: 0, // disabled
       abort: function noop() {},
 
-      minRotation: - Math.PI / 2,
+      minRotation: -Math.PI / 2,
       maxRotation: Math.PI / 2,
       rotationSteps: 0,
 
@@ -236,7 +237,7 @@ if (!window.clearImmediate) {
     if (typeof settings.shape !== 'function') {
       switch (settings.shape) {
         case 'circle':
-        /* falls through */
+          /* falls through */
         default:
           // 'circle' is the default and a shortcut in the code loop.
           settings.shape = 'circle';
@@ -248,17 +249,14 @@ if (!window.clearImmediate) {
           };
           break;
 
-        /*
-
-        To work out an X-gon, one has to calculate "m",
-        where 1/(cos(2*PI/X)+m*sin(2*PI/X)) = 1/(cos(0)+m*sin(0))
-        http://www.wolframalpha.com/input/?i=1%2F%28cos%282*PI%2FX%29%2Bm*sin%28
-        2*PI%2FX%29%29+%3D+1%2F%28cos%280%29%2Bm*sin%280%29%29
-
-        Copy the solution into polar equation r = 1/(cos(t') + m*sin(t'))
-        where t' equals to mod(t, 2PI/X);
-
-        */
+          /*
+          To work out an X-gon, one has to calculate "m",
+          where 1/(cos(2*PI/X)+m*sin(2*PI/X)) = 1/(cos(0)+m*sin(0))
+          http://www.wolframalpha.com/input/?i=1%2F%28cos%282*PI%2FX%29%2Bm*sin%28
+          2*PI%2FX%29%29+%3D+1%2F%28cos%280%29%2Bm*sin%280%29%29
+          Copy the solution into polar equation r = 1/(cos(t') + m*sin(t'))
+          where t' equals to mod(t, 2PI/X);
+          */
 
         case 'diamond':
           // http://www.wolframalpha.com/input/?i=plot+r+%3D+1%2F%28cos%28mod+
@@ -288,7 +286,7 @@ if (!window.clearImmediate) {
           settings.shape = function shapeTriangle(theta) {
             var thetaPrime = theta % (2 * Math.PI / 3);
             return 1 / (Math.cos(thetaPrime) +
-                        Math.sqrt(3) * Math.sin(thetaPrime));
+              Math.sqrt(3) * Math.sin(thetaPrime));
           };
           break;
 
@@ -297,7 +295,7 @@ if (!window.clearImmediate) {
           settings.shape = function shapeTriangle(theta) {
             var thetaPrime = (theta + Math.PI * 3 / 2) % (2 * Math.PI / 3);
             return 1 / (Math.cos(thetaPrime) +
-                        Math.sqrt(3) * Math.sin(thetaPrime));
+              Math.sqrt(3) * Math.sin(thetaPrime));
           };
           break;
 
@@ -305,7 +303,7 @@ if (!window.clearImmediate) {
           settings.shape = function shapePentagon(theta) {
             var thetaPrime = (theta + 0.955) % (2 * Math.PI / 5);
             return 1 / (Math.cos(thetaPrime) +
-                        0.726543 * Math.sin(thetaPrime));
+              0.726543 * Math.sin(thetaPrime));
           };
           break;
 
@@ -314,10 +312,10 @@ if (!window.clearImmediate) {
             var thetaPrime = (theta + 0.955) % (2 * Math.PI / 10);
             if ((theta + 0.955) % (2 * Math.PI / 5) - (2 * Math.PI / 10) >= 0) {
               return 1 / (Math.cos((2 * Math.PI / 10) - thetaPrime) +
-                          3.07768 * Math.sin((2 * Math.PI / 10) - thetaPrime));
+                3.07768 * Math.sin((2 * Math.PI / 10) - thetaPrime));
             } else {
               return 1 / (Math.cos(thetaPrime) +
-                          3.07768 * Math.sin(thetaPrime));
+                3.07768 * Math.sin(thetaPrime));
             }
           };
           break;
@@ -347,6 +345,7 @@ if (!window.clearImmediate) {
 
     /* function for getting the color of the text */
     var getTextColor;
+
     function random_hsl_color(min, max) {
       return 'hsl(' +
         (Math.random() * 360).toFixed() + ',' +
@@ -391,27 +390,27 @@ if (!window.clearImmediate) {
     var hovered;
 
     var getInfoGridFromMouseTouchEvent =
-    function getInfoGridFromMouseTouchEvent(evt) {
-      var canvas = evt.currentTarget;
-      var rect = canvas.getBoundingClientRect();
-      var clientX;
-      var clientY;
-      /** Detect if touches are available */
-      if (evt.touches) {
-        clientX = evt.touches[0].clientX;
-        clientY = evt.touches[0].clientY;
-      } else {
-        clientX = evt.clientX;
-        clientY = evt.clientY;
-      }
-      var eventX = clientX - rect.left;
-      var eventY = clientY - rect.top;
+      function getInfoGridFromMouseTouchEvent(evt) {
+        var canvas = evt.currentTarget;
+        var rect = canvas.getBoundingClientRect();
+        var clientX;
+        var clientY;
+        /** Detect if touches are available */
+        if (evt.touches) {
+          clientX = evt.touches[0].clientX;
+          clientY = evt.touches[0].clientY;
+        } else {
+          clientX = evt.clientX;
+          clientY = evt.clientY;
+        }
+        var eventX = clientX - rect.left;
+        var eventY = clientY - rect.top;
 
-      var x = Math.floor(eventX * ((canvas.width / rect.width) || 1) / g);
-      var y = Math.floor(eventY * ((canvas.height / rect.height) || 1) / g);
+        var x = Math.floor(eventX * ((canvas.width / rect.width) || 1) / g);
+        var y = Math.floor(eventY * ((canvas.height / rect.height) || 1) / g);
 
-      return infoGrid[x][y];
-    };
+        return infoGrid[x][y];
+      };
 
     var wordcloudhover = function wordcloudhover(evt) {
       var info = getInfoGridFromMouseTouchEvent(evt);
@@ -470,8 +469,9 @@ if (!window.clearImmediate) {
         points.push([
           center[0] + radius * rx * Math.cos(-t / T * 2 * Math.PI),
           center[1] + radius * rx * Math.sin(-t / T * 2 * Math.PI) *
-            settings.ellipticity,
-          t / T * 2 * Math.PI]);
+          settings.ellipticity,
+          t / T * 2 * Math.PI
+        ]);
       }
 
       pointsAtRadius[radius] = points;
@@ -503,8 +503,7 @@ if (!window.clearImmediate) {
         return minRotation +
           Math.floor(Math.random() * rotationSteps) *
           rotationRange / (rotationSteps - 1);
-      }
-      else {
+      } else {
         return minRotation + Math.random() * rotationRange;
       }
     };
@@ -542,7 +541,9 @@ if (!window.clearImmediate) {
       }
 
       var fcanvas = document.createElement('canvas');
-      var fctx = fcanvas.getContext('2d', { willReadFrequently: true });
+      var fctx = fcanvas.getContext('2d', {
+        willReadFrequently: true
+      });
 
       fctx.font = fontWeight + ' ' +
         (fontSize * mu).toString(10) + 'px ' + settings.fontFamily;
@@ -550,8 +551,8 @@ if (!window.clearImmediate) {
       // Estimate the dimension of the text with measureText().
       var fw = fctx.measureText(word).width / mu;
       var fh = Math.max(fontSize * mu,
-                        fctx.measureText('m').width,
-                        fctx.measureText('\uFF37').width) / mu;
+        fctx.measureText('m').width,
+        fctx.measureText('\uFF37').width) / mu;
 
       // Create a boundary box that is larger than our estimates,
       // so text don't get cut of (it sill might)
@@ -566,17 +567,17 @@ if (!window.clearImmediate) {
       // the preferred position.
 
       // This is simply half of the width.
-      var fillTextOffsetX = - fw / 2;
+      var fillTextOffsetX = -fw / 2;
       // Instead of moving the box to the exact middle of the preferred
       // position, for Y-offset we move 0.4 instead, so Latin alphabets look
       // vertical centered.
-      var fillTextOffsetY = - fh * 0.4;
+      var fillTextOffsetY = -fh * 0.4;
 
       // Calculate the actual dimension of the canvas, considering the rotation.
       var cgh = Math.ceil((boxWidth * Math.abs(Math.sin(rotateDeg)) +
-                           boxHeight * Math.abs(Math.cos(rotateDeg))) / g);
+        boxHeight * Math.abs(Math.cos(rotateDeg))) / g);
       var cgw = Math.ceil((boxWidth * Math.abs(Math.cos(rotateDeg)) +
-                           boxHeight * Math.abs(Math.sin(rotateDeg))) / g);
+        boxHeight * Math.abs(Math.sin(rotateDeg))) / g);
       var width = cgw * g;
       var height = cgh * g;
 
@@ -593,7 +594,7 @@ if (!window.clearImmediate) {
       // Scale the canvas with |mu|.
       fctx.scale(1 / mu, 1 / mu);
       fctx.translate(width * mu / 2, height * mu / 2);
-      fctx.rotate(- rotateDeg);
+      fctx.rotate(-rotateDeg);
 
       // Once the width/height is set, ctx info will be reset.
       // Set it again here.
@@ -609,7 +610,7 @@ if (!window.clearImmediate) {
       fctx.fillStyle = '#000';
       fctx.textBaseline = 'middle';
       fctx.fillText(word, fillTextOffsetX * mu,
-                    (fillTextOffsetY + fontSize * 0.5) * mu);
+        (fillTextOffsetY + fontSize * 0.5) * mu);
 
       // Get the pixels of the text
       var imageData = fctx.getImageData(0, 0, width, height).data;
@@ -621,13 +622,14 @@ if (!window.clearImmediate) {
       if (debug) {
         // Draw the box of the original estimation
         fctx.strokeRect(fillTextOffsetX * mu,
-                        fillTextOffsetY, fw * mu, fh * mu);
+          fillTextOffsetY, fw * mu, fh * mu);
         fctx.restore();
       }
 
       // Read the pixels and save the information to the occupied array
       var occupied = [];
-      var gx = cgw, gy, x, y;
+      var gx = cgw,
+        gy, x, y;
       var bounds = [cgh / 2, cgw / 2, cgh / 2, cgw / 2];
       while (gx--) {
         gy = cgh;
@@ -638,7 +640,7 @@ if (!window.clearImmediate) {
               x = g;
               while (x--) {
                 if (imageData[((gy * g + y) * width +
-                               (gx * g + x)) * 4 + 3]) {
+                    (gx * g + x)) * 4 + 3]) {
                   occupied.push([gx, gy]);
 
                   if (gx < bounds[3]) {
@@ -673,9 +675,9 @@ if (!window.clearImmediate) {
       if (debug) {
         fctx.fillStyle = 'rgba(0, 255, 0, 0.5)';
         fctx.fillRect(bounds[3] * g,
-                      bounds[0] * g,
-                      (bounds[1] - bounds[3] + 1) * g,
-                      (bounds[2] - bounds[0] + 1) * g);
+          bounds[0] * g,
+          (bounds[1] - bounds[3] + 1) * g,
+          (bounds[2] - bounds[0] + 1) * g);
       }
 
       // Return information needed to create the text on the real canvas
@@ -718,7 +720,7 @@ if (!window.clearImmediate) {
 
     /* Actually draw the text on the grid */
     var drawText = function drawText(gx, gy, info, word, weight,
-                                     distance, theta, rotateDeg, attributes) {
+      distance, theta, rotateDeg, attributes) {
 
       var fontSize = info.fontSize;
       var color;
@@ -752,7 +754,7 @@ if (!window.clearImmediate) {
         h: (bounds[2] - bounds[0] + 1) * g
       };
 
-      elements.forEach(function(el) {
+      elements.forEach(function (el) {
         if (el.getContext) {
           var ctx = el.getContext('2d');
           var mu = info.mu;
@@ -762,16 +764,16 @@ if (!window.clearImmediate) {
           ctx.scale(1 / mu, 1 / mu);
 
           ctx.font = fontWeight + ' ' +
-                     (fontSize * mu).toString(10) + 'px ' + settings.fontFamily;
+            (fontSize * mu).toString(10) + 'px ' + settings.fontFamily;
           ctx.fillStyle = color;
 
           // Translate the canvas position to the origin coordinate of where
           // the text should be put.
           ctx.translate((gx + info.gw / 2) * g * mu,
-                        (gy + info.gh / 2) * g * mu);
+            (gy + info.gh / 2) * g * mu);
 
           if (rotateDeg !== 0) {
-            ctx.rotate(- rotateDeg);
+            ctx.rotate(-rotateDeg);
           }
 
           // Finally, fill the text.
@@ -783,7 +785,7 @@ if (!window.clearImmediate) {
           // 0.5 * fontSize lower.
           ctx.textBaseline = 'middle';
           ctx.fillText(word, info.fillTextOffsetX * mu,
-                             (info.fillTextOffsetY + fontSize * 0.5) * mu);
+            (info.fillTextOffsetY + fontSize * 0.5) * mu);
 
           // The below box is always matches how <span>s are positioned
           /* ctx.strokeRect(info.fillTextOffsetX, info.fillTextOffsetY,
@@ -795,7 +797,7 @@ if (!window.clearImmediate) {
           // drawText on DIV element
           var span = document.createElement('span');
           var transformRule = '';
-          transformRule = 'rotate(' + (- rotateDeg / Math.PI * 180) + 'deg) ';
+          transformRule = 'rotate(' + (-rotateDeg / Math.PI * 180) + 'deg) ';
           if (info.mu !== 1) {
             transformRule +=
               'translateX(-' + (info.fillTextWidth / 4) + 'px) ' +
@@ -805,7 +807,7 @@ if (!window.clearImmediate) {
             'position': 'absolute',
             'display': 'block',
             'font': fontWeight + ' ' +
-                    (fontSize * info.mu) + 'px ' + settings.fontFamily,
+              (fontSize * info.mu) + 'px ' + settings.fontFamily,
             'left': ((gx + info.gw / 2) * g + info.fillTextOffsetX) + 'px',
             'top': ((gy + info.gh / 2) * g + info.fillTextOffsetY) + 'px',
             'width': info.fillTextWidth + 'px',
@@ -853,7 +855,10 @@ if (!window.clearImmediate) {
       }
 
       if (interactive) {
-        infoGrid[x][y] = { item: item, dimension: dimension };
+        infoGrid[x][y] = {
+          item: item,
+          dimension: dimension
+        };
       }
     };
 
@@ -939,7 +944,7 @@ if (!window.clearImmediate) {
       // start looking for the nearest points
       var r = maxRadius + 1;
 
-      var tryToPutWordAtPoint = function(gxy) {
+      var tryToPutWordAtPoint = function (gxy) {
         var gx = Math.floor(gxy[0] - info.gw / 2);
         var gy = Math.floor(gxy[1] - info.gh / 2);
         var gw = info.gw;
@@ -953,7 +958,7 @@ if (!window.clearImmediate) {
 
         // Actually put the text on the canvas
         drawText(gx, gy, info, word, weight,
-                 (maxRadius - r), gxy[2], rotateDeg, attributes);
+          (maxRadius - r), gxy[2], rotateDeg, attributes);
 
         // Mark the spaces on the grid as filled
         updateGrid(gx, gy, gw, gh, info, item);
@@ -987,18 +992,20 @@ if (!window.clearImmediate) {
 
     /* Send DOM event to all elements. Will stop sending event and return
        if the previous one is canceled (for cancelable events). */
-    var sendEvent = function sendEvent(type, cancelable, detail) {
+    var sendEvent = function sendEvent(type, cancelable, details) {
       if (cancelable) {
-        return !elements.some(function(el) {
-          var evt = document.createEvent('CustomEvent');
-          evt.initCustomEvent(type, true, cancelable, detail || {});
-          return !el.dispatchEvent(evt);
+        return !elements.some(function (el) {
+          var event = new CustomEvent(type, {
+            detail: details || {}
+          });
+          return !el.dispatchEvent(event);
         }, this);
       } else {
-        elements.forEach(function(el) {
-          var evt = document.createEvent('CustomEvent');
-          evt.initCustomEvent(type, true, cancelable, detail || {});
-          el.dispatchEvent(evt);
+        elements.forEach(function (el) {
+          var event = new CustomEvent(type, {
+            detail: details || {}
+          });
+          el.dispatchEvent(event);
         }, this);
       }
     };
@@ -1025,9 +1032,7 @@ if (!window.clearImmediate) {
       }
 
       // Determine the center of the word cloud
-      center = (settings.origin) ?
-        [settings.origin[0]/g, settings.origin[1]/g] :
-        [ngx / 2, ngy / 2];
+      center = (settings.origin) ? [settings.origin[0] / g, settings.origin[1] / g] : [ngx / 2, ngy / 2];
 
       // Maxium radius to look for space
       maxRadius = Math.floor(Math.sqrt(ngx * ngx + ngy * ngy));
@@ -1038,7 +1043,7 @@ if (!window.clearImmediate) {
 
       var gx, gy, i;
       if (!canvas.getContext || settings.clearCanvas) {
-        elements.forEach(function(el) {
+        elements.forEach(function (el) {
           if (el.getContext) {
             var ctx = el.getContext('2d');
             ctx.fillStyle = settings.backgroundColor;
@@ -1088,7 +1093,7 @@ if (!window.clearImmediate) {
                 i = 4;
                 while (i--) {
                   if (imageData[((gy * g + y) * ngx * g +
-                                 (gx * g + x)) * 4 + i] !== bgPixel[i]) {
+                      (gx * g + x)) * 4 + i] !== bgPixel[i]) {
                     grid[gx][gy] = false;
                     break singleGridLoop;
                   }
@@ -1152,13 +1157,13 @@ if (!window.clearImmediate) {
       }
 
       var addEventListener = function addEventListener(type, listener) {
-        elements.forEach(function(el) {
+        elements.forEach(function (el) {
           el.addEventListener(type, listener);
         }, this);
       };
 
       var removeEventListener = function removeEventListener(type, listener) {
-        elements.forEach(function(el) {
+        elements.forEach(function (el) {
           el.removeEventListener(type, listener);
         }, this);
       };
@@ -1181,7 +1186,9 @@ if (!window.clearImmediate) {
         escapeTime = (new Date()).getTime();
         var drawn = putWord(settings.list[i]);
         var canceled = !sendEvent('wordclouddrawn', true, {
-          item: settings.list[i], drawn: drawn });
+          item: settings.list[i],
+          drawn: drawn
+        });
         if (exceedTime() || canceled) {
           stoppingFunction(timer);
           settings.abort();
@@ -1205,7 +1212,9 @@ if (!window.clearImmediate) {
   // Expose the library as an AMD module
   if (typeof define === 'function' && define.amd) {
     global.WordCloud = WordCloud;
-    define('wordcloud', [], function() { return WordCloud; });
+    define('wordcloud', [], function () {
+      return WordCloud;
+    });
   } else if (typeof module !== 'undefined' && module.exports) {
     module.exports = WordCloud;
   } else {
