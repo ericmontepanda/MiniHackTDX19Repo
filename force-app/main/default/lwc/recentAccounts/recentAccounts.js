@@ -15,9 +15,28 @@ import {
 import getRecentAcc from '@salesforce/apex/recentAccounts.recAcc';
 export default class RecentAccounts extends LightningElement {
     @track error;
-    @wire(getRecentAcc) recAcc;
+    @track accts = [];
+    @wire(getRecentAcc)
+    recAcc({
+        error,
+        data
+    }) {
+        this.accts = [];
+        console.log(data);
+        if (data) {
+            data.forEach(accts => {
+                this.accts.push([
+                    accts.Name,
+                    20
+                ]);
+            });
+        } else if (error) {
+            this.error = error;
+        }
+    }
+
     cloudInit = false;
-    
+
     list = [
         ['foo', 12],
         ['bar', 6],
@@ -36,21 +55,22 @@ export default class RecentAccounts extends LightningElement {
                 this.initializeWordCloud();
             })
 
-        .catch(error => {
-            this.dispatchEvent(
-                new ShowToastEvent({
-                    title: 'Error loading ERROR',
-                    message: error.message,
-                    variant: 'error',
-                }),
-            );
-        });
+            .catch(error => {
+                this.dispatchEvent(
+                    new ShowToastEvent({
+                        title: 'Error loading ERROR',
+                        message: error.message,
+                        variant: 'error',
+                    }),
+                );
+            });
     }
 
     initializeWordCloud() {
         var mycanvas = this.template.querySelector("canvas.my_canvas");
+        console.log('accounts ' + this.accts);
         window.WordCloud(mycanvas, {
-            list: this.list,
+            list: this.accts,
             minFontSize: 200,
             fontFamily: 'Times, serif',
             rotateRatio: 0.5,
