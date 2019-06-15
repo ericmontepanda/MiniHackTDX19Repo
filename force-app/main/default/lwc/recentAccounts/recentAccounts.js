@@ -13,48 +13,51 @@ import {
 } from 'lightning/platformShowToastEvent';
 
 import getRecentAcc from '@salesforce/apex/recentAccounts.recAcc';
-
 export default class RecentAccounts extends LightningElement {
     @track error;
-    WordCloud;
     @wire(getRecentAcc) recAcc;
     cloudInit = false;
-
+    
     list = [
-        ['foo', 1],
-        ['bar', 5]
+        'foo', 12],
+        ['bar', 6],
+        ['foo', 20],
+        ['bar', 18]
     ];
 
+
     renderedCallback() {
-        //console.log('FIRST DIV' +this.template.querySelector('div'));
-        //console.log('my canvas' + this.template.querySelector('canvas.my_canvas')); 
         if (this.cloudInit) {
             return;
         }
         this.cloudInit = true;
-      Promise.all([
-                loadScript(this, wordcloud)
-            ])
+        loadScript(this, wordcloud)
             .then(() => {
                 this.initializeWordCloud();
             })
-            .catch(error => {
-                this.dispatchEvent(
-                    new ShowToastEvent({
-                        title: 'Error loading ERROR',
-                        message: error.message,
-                        variant: 'error',
-                    }),
-                );
-            });
+
+        .catch(error => {
+            this.dispatchEvent(
+                new ShowToastEvent({
+                    title: 'Error loading ERROR',
+                    message: error.message,
+                    variant: 'error',
+                }),
+            );
+        });
     }
 
-    initializeWordCloud(){
-        console.log('>>> my list' + this.template.querySelector('canvas'));
-        console.log('>>> my list' + this.list);
-        WordCloud(this.template.querySelector('canvas'), {
-            list: this.list 
+    initializeWordCloud() {
+        var mycanvas = this.template.querySelector("canvas.my_canvas");
+        window.WordCloud(mycanvas, {
+            list: this.list,
+            minFontSize: 200,
+            fontFamily: 'Times, serif',
+            rotateRatio: 0.5,
+            rotationSteps: 2,
+            backgroundColor: '#FF007F',
+
         });
-    } 
-    
+    }
+
 }
