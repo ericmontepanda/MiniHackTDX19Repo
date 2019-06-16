@@ -1,0 +1,9 @@
+<template>
+    <div>
+        <canvas class="my_canvas" lwc:dom="manual"></canvas>
+    </div>
+
+    <template for:each={accList2} for:item="acc">
+        <p class="slds-p-horizontal_small" key={acc.Id}>{acc.Id}-{acc.Name}</p>
+    </template>
+</template>

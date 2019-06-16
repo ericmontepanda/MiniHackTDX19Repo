@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Recently Accessed Accounts">
+        <div>
+            <canvas class="my_canvas" lwc:dom="manual"></canvas>
+        </div>
+        <template for:each={recAccounts.data} for:item="acc">
+            <p class="slds-p-horizontal_small" key={acc.Id}>{acc.Id}-{acc.Name}</p>
+        </template>
+    </lightning-card>
+</template>

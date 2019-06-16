@@ -13,27 +13,40 @@ import {
 } from 'lightning/platformShowToastEvent';
 
 import getRecentAcc from '@salesforce/apex/recentAccounts.recAcc';
+import getRecentWrap from '@salesforce/apex/recentAccounts.recentlyViewed';
 export default class RecentAccounts extends LightningElement {
     @track error;
     @track accts = [];
-    @wire(getRecentAcc)
-    recAcc({
+    @wire(getRecentWrap)
+    recWrap({
         error,
         data
     }) {
         this.accts = [];
-        console.log(data);
+        console.log('wired data' + JSON.stringify(data));
         if (data) {
-            data.forEach(accts => {
+            data.forEach(acc => {
                 this.accts.push([
-                    accts.Name,
-                    20
+                    acc.Name,
+                    acc.Id
                 ]);
             });
         } else if (error) {
             this.error = error;
+            this.accts = [];
         }
+        console.log('wired acccount ' + this.accts);
     }
+
+    @wire(getRecentAcc) recAcc;
+    /*recAcc({
+        error,
+        data
+    }) {
+
+
+
+    }*/
 
     cloudInit = false;
 
@@ -44,8 +57,29 @@ export default class RecentAccounts extends LightningElement {
         ['bar', 18]
     ];
 
+    /*connectedCallback() {
+        console.log('connected data' + this.accts);
+        
+        
+        loadScript(this, wordcloud)
+            .then(() => {
+                this.initializeWordCloud();
+            })
 
+            .catch(error => {
+                this.dispatchEvent(
+                    new ShowToastEvent({
+                        title: 'Error loading ERROR',
+                        message: error.message,
+                        variant: 'error',
+                    }),
+                );
+            });
+
+    }*/
     renderedCallback() {
+        console.log('connected data' + this.accts);
+        console.log('record data... ' + this.recWrap.data);
         if (this.cloudInit) {
             return;
         }
@@ -66,11 +100,13 @@ export default class RecentAccounts extends LightningElement {
             });
     }
 
+
     initializeWordCloud() {
+        //const accts = this.accts;
         var mycanvas = this.template.querySelector("canvas.my_canvas");
-        console.log('accounts ' + this.accts);
+        console.log('word cloud... ' + this.accts);
         window.WordCloud(mycanvas, {
-            list: this.accts,
+            list: this.list,
             minFontSize: 200,
             fontFamily: 'Times, serif',
             rotateRatio: 0.5,
@@ -79,5 +115,6 @@ export default class RecentAccounts extends LightningElement {
 
         });
     }
+
 
 }

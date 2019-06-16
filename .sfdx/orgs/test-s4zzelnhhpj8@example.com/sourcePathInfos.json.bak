@@ -62,10 +62,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc",
             "isDirectory": true,
-            "size": 288,
-            "modifiedTime": 1560556128444,
-            "changeTime": 1560556128444,
-            "contentHash": "c6ddfe43f8233e96089411cf7fae5a10841d722e",
+            "size": 384,
+            "modifiedTime": 1560712964405,
+            "changeTime": 1560712964405,
+            "contentHash": "57495b7a564e1d8932cd066c78935afab9f1c3da",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -1778,7 +1778,7 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts",
             "isDirectory": true,
             "size": 160,
-            "modifiedTime": 1560542469130,
+            "modifiedTime": 1560723672107,
             "changeTime": 1560378308363,
             "contentHash": "ca2d4382f921e83cee45052adbbd790615da4a93",
             "isMetadataFile": false,
@@ -1791,8 +1791,8 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.html",
             "isDirectory": false,
             "size": 371,
-            "modifiedTime": 1560555842134,
-            "changeTime": 1560555842134,
+            "modifiedTime": 1560723672108,
+            "changeTime": 1560723672108,
             "contentHash": "447ba9151c312b715a9b8afb09a12964815df450",
             "isMetadataFile": false,
             "state": "u"
@@ -1801,14 +1801,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.js",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccounts/recentAccounts.js",
             "isDirectory": false,
+            "size": 2887,
+            "modifiedTime": 1560652511447,
+            "changeTime": 1560652511447,
+            "contentHash": "74a766fca5b2663ad532e0a42474821ada7a1a9b",
             "isMetadataFile": false,
-            "size": 1453,
-            "modifiedTime": 1560556580436,
-            "changeTime": 1560556580436,
-            "contentHash": "557b486c939c0fbb844dfefb6b9d397b305391a6"
+            "state": "u"
         }
     ],
     [
@@ -1829,10 +1829,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/recentAccounts.cls",
             "isDirectory": false,
-            "size": 276,
-            "modifiedTime": 1560378696509,
-            "changeTime": 1560378696509,
-            "contentHash": "42f6c54f2877eccfcb8cc55aa863fd081b13537f",
+            "size": 1439,
+            "modifiedTime": 1560652129891,
+            "changeTime": 1560652129891,
+            "contentHash": "3e20bd1bbfb6f5339dca380d16df204e4ac73b25",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -2258,10 +2258,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/wordcloud/wordcloud.js",
             "isDirectory": false,
-            "size": 867,
-            "modifiedTime": 1560556160835,
-            "changeTime": 1560556160835,
-            "contentHash": "a41e0d2d86309ea585c9a253851bf883553184e4",
+            "size": 99,
+            "modifiedTime": 1560558675738,
+            "changeTime": 1560558675738,
+            "contentHash": "c05d12c1270abf10e2e1b6da386aa0766d12dafc",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -2275,6 +2275,162 @@
             "modifiedTime": 1560556193587,
             "changeTime": 1560556193587,
             "contentHash": "6457a1f557233ef35a326301ce745e665e6ed129",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountChild",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountChild",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1560697975067,
+            "changeTime": 1560697975067,
+            "contentHash": "4d8a63cff3a166fffe4f5ecb4080f7151f8b9f5c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountParent",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountParent",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1560697965914,
+            "changeTime": 1560697965914,
+            "contentHash": "3d1e48a77d9cb977fe3d4b702482f6be997c12e9",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountChild/recentAccountChild.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountChild/recentAccountChild.html",
+            "isDirectory": false,
+            "size": 251,
+            "modifiedTime": 1560703059531,
+            "changeTime": 1560703059531,
+            "contentHash": "5267d483b870745f3993f1e1c3cd7017a5c03b0e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountChild/recentAccountChild.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountChild/recentAccountChild.js",
+            "isDirectory": false,
+            "size": 1958,
+            "modifiedTime": 1560712907471,
+            "changeTime": 1560712907471,
+            "contentHash": "f1c26c36f3a52c489050c7bed745e09e169b64ff",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountChild/recentAccountChild.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountChild/recentAccountChild.js-meta.xml",
+            "isDirectory": false,
+            "size": 233,
+            "modifiedTime": 1560697975067,
+            "changeTime": 1560697975067,
+            "contentHash": "e25e642b79a9295b1d95c92bee5e5fc08e0dea91",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountParent/recentAccountParent.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountParent/recentAccountParent.html",
+            "isDirectory": false,
+            "size": 336,
+            "modifiedTime": 1560703172525,
+            "changeTime": 1560703172525,
+            "contentHash": "15d7e36629e7d8f1302159e9b6741d9893759a90",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountParent/recentAccountParent.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountParent/recentAccountParent.js",
+            "isDirectory": false,
+            "size": 880,
+            "modifiedTime": 1560706957861,
+            "changeTime": 1560706957861,
+            "contentHash": "c43d0a9dcdd22da65d2e5a7b57efddea82000ae4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountParent/recentAccountParent.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/recentAccountParent/recentAccountParent.js-meta.xml",
+            "isDirectory": false,
+            "size": 307,
+            "modifiedTime": 1560699330701,
+            "changeTime": 1560699330701,
+            "contentHash": "61440ac00249be61e4bf2d153016544bc25ce6e6",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1560712964407,
+            "changeTime": 1560712964407,
+            "contentHash": "c00732faa4bdcd87eebc0e010bd984fc810b78ab",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts/redoAccounts.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts/redoAccounts.html",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1560723684667,
+            "changeTime": 1560723684667,
+            "contentHash": "47da866fc7668dda5414eb1626df35d00de6944d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts/redoAccounts.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts/redoAccounts.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2147,
+            "modifiedTime": 1560726847632,
+            "changeTime": 1560726847632,
+            "contentHash": "d646c8636d7ad7dea13bf6f7c0e9bde69afaba6b"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts/redoAccounts.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts/redoAccounts.js-meta.xml",
+            "isDirectory": false,
+            "size": 300,
+            "modifiedTime": 1560722953081,
+            "changeTime": 1560722953081,
+            "contentHash": "ff55edfcae2a0abc05b84d899861e82f5d97bb01",
             "isMetadataFile": true,
             "state": "u"
         }

@@ -12,8 +12,17 @@
             "c/lWC": [
                 "lWC/lWC.js"
             ],
+            "c/recentAccountChild": [
+                "recentAccountChild/recentAccountChild.js"
+            ],
+            "c/recentAccountParent": [
+                "recentAccountParent/recentAccountParent.js"
+            ],
             "c/recentAccounts": [
                 "recentAccounts/recentAccounts.js"
+            ],
+            "c/redoAccounts": [
+                "redoAccounts/redoAccounts.js"
             ],
             "c/wordcloud": [
                 "wordcloud/wordcloud.js"
