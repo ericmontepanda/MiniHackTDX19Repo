@@ -32,14 +32,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default",
         {
+            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default",
             "isDirectory": true,
-            "size": 448,
-            "modifiedTime": 1560545121893,
-            "changeTime": 1560545121893,
-            "contentHash": "c1297a94a300663f86bbb89c3e7f805b2409a089",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 480,
+            "modifiedTime": 1560777334101,
+            "changeTime": 1560777334101,
+            "contentHash": "98722042b2a5e28ddf6f2fe342f57e684ddd8b70"
         }
     ],
     [
@@ -1996,14 +1996,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/flexipages/WordCloud.flexipage-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/flexipages/WordCloud.flexipage-meta.xml",
             "isDirectory": false,
-            "size": 788,
-            "modifiedTime": 1560545121843,
-            "changeTime": 1560545121843,
-            "contentHash": "a9170c03eb193599c90db6de4a6b8ba1235a1dfa",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 786,
+            "modifiedTime": 1560777334052,
+            "changeTime": 1560777334052,
+            "contentHash": "d64c5efa9d6987b7264601703aad86226ce67234"
         }
     ],
     [
@@ -2061,14 +2061,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Admin.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 23422,
-            "modifiedTime": 1560545121864,
-            "changeTime": 1560545121864,
-            "contentHash": "afbe158be3a22d7af3f2953d112fc4553517cab0",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 29946,
+            "modifiedTime": 1560777334097,
+            "changeTime": 1560777334097,
+            "contentHash": "fb9eabc62f3159703e887502e04e187cf7c8633c"
         }
     ],
     [
@@ -2412,14 +2412,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts/redoAccounts.js",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts/redoAccounts.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3363,
             "modifiedTime": 1560730514788,
             "changeTime": 1560730514788,
-            "contentHash": "4d897d03410ff3691a61e92c40b5cd207bff922b"
+            "contentHash": "4d897d03410ff3691a61e92c40b5cd207bff922b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -2433,6 +2433,32 @@
             "contentHash": "ff55edfcae2a0abc05b84d899861e82f5d97bb01",
             "isMetadataFile": true,
             "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/appMenus/AppSwitcher.appMenu-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/appMenus/AppSwitcher.appMenu-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1996,
+            "modifiedTime": 1560777334101,
+            "changeTime": 1560777334101,
+            "contentHash": "0b2f35f5f9e023c213fb366d2f3535fd321a0ada"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/appMenus",
+        {
+            "state": "u",
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/appMenus",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1560777334101,
+            "changeTime": 1560777334101,
+            "contentHash": "7c65d70563206b380e20367663fe2cc611131a2d"
         }
     ]
 ]
