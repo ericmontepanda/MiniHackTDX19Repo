@@ -2416,10 +2416,10 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts/redoAccounts.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 2147,
-            "modifiedTime": 1560726847632,
-            "changeTime": 1560726847632,
-            "contentHash": "d646c8636d7ad7dea13bf6f7c0e9bde69afaba6b"
+            "size": 3366,
+            "modifiedTime": 1560730423051,
+            "changeTime": 1560730423051,
+            "contentHash": "fd868f3822e58a01d8afdc9d186b1a8f2ae3726e"
         }
     ],
     [
