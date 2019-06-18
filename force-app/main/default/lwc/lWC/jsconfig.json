@@ -25,6 +25,30 @@
             ],
             "c/wordcloud": [
                 "../wordcloud/wordcloud.js"
+            ],
+            "c/productList": [
+                "../productList/productList.js"
+            ],
+            "c/products": [
+                "../products/products.js"
+            ],
+            "c/pubsub": [
+                "../pubsub/pubsub.js"
+            ],
+            "c/selector": [
+                "../../../../../LWC-Basics-Bike-Selector-Trailhead/selector/selector.js"
+            ],
+            "c/tile": [
+                "../../../../../LWC-Basics-Bike-Selector-Trailhead/tile/tile.js"
+            ],
+            "c/detail": [
+                "../../../../../LWC-Basics-Bike-Selector-Trailhead/detail/detail.js"
+            ],
+            "c/list": [
+                "../../../../../LWC-Basics-Bike-Selector-Trailhead/list/list.js"
+            ],
+            "c/data": [
+                "../../../../../LWC-Basics-Bike-Selector-Trailhead/data/data.js"
             ]
         },
         "experimentalDecorators": true

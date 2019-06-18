@@ -4,10 +4,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app",
             "isDirectory": true,
-            "size": 128,
-            "modifiedTime": 1560130975887,
-            "changeTime": 1560130975887,
-            "contentHash": "51d86f3b64a3d9a0048d192f02147b0e9e9594e4",
+            "size": 160,
+            "modifiedTime": 1560869659551,
+            "changeTime": 1560869659551,
+            "contentHash": "9205e9148178cbccba555a4969d567c4bacb457c",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false,
@@ -32,14 +32,16 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 480,
             "modifiedTime": 1560785021146,
             "changeTime": 1560785021146,
-            "contentHash": "b949237ff78de62f76bfbfb85cb740488bbd0158"
+            "contentHash": "b949237ff78de62f76bfbfb85cb740488bbd0158",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -62,10 +64,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes",
             "isDirectory": true,
-            "size": 192,
-            "modifiedTime": 1560378563426,
-            "changeTime": 1560378563426,
-            "contentHash": "6e76bf3e8fd0e75bbae9dd43897deea58b288e16",
+            "size": 256,
+            "modifiedTime": 1560785420167,
+            "changeTime": 1560785420167,
+            "contentHash": "4cd89a71abedfcb8d1f9f3f8277e685dd31e2f96",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false,
@@ -272,10 +274,10 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc",
             "isDirectory": true,
-            "size": 384,
-            "modifiedTime": 1560712964405,
-            "changeTime": 1560712964405,
-            "contentHash": "57495b7a564e1d8932cd066c78935afab9f1c3da",
+            "size": 480,
+            "modifiedTime": 1560825045027,
+            "changeTime": 1560825045027,
+            "contentHash": "4aebbf427e8f0f38b957e28e0600f3d5315a97ee",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false,
@@ -2403,8 +2405,8 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles",
             "isDirectory": true,
             "size": 192,
-            "modifiedTime": 1560545121889,
-            "changeTime": 1560545121889,
+            "modifiedTime": 1560784645481,
+            "changeTime": 1560784645481,
             "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
             "isMetadataFile": false,
             "state": "u",
@@ -2422,7 +2424,9 @@
             "changeTime": 1560784645481,
             "contentHash": "78d5081ae648d2ad38ff173d363ae83b8e5687d8",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2641,7 +2645,7 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919",
             "isDirectory": true,
             "size": 416,
-            "modifiedTime": 1560134006810,
+            "modifiedTime": 1560869659551,
             "changeTime": 1560134006810,
             "contentHash": "8f9253aec4fa9d35e245302f4f3e0de8ef76c7a4",
             "isMetadataFile": false,
@@ -2660,7 +2664,9 @@
             "changeTime": 1560784645484,
             "contentHash": "c72e54c543945abd53c6a1dbe53e3f9f77564e1e",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2673,7 +2679,561 @@
             "changeTime": 1560784645484,
             "contentHash": "8e715febe3449f03198466ef3d31338953cfdfd1",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1560785100220,
+            "changeTime": 1560785100220,
+            "contentHash": "54f37fa910327f98222911861bb9c7f3cb8445fc",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/productList.cls",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/productList.cls",
+            "isDirectory": false,
+            "size": 338,
+            "modifiedTime": 1560786795120,
+            "changeTime": 1560786795120,
+            "contentHash": "07f03d6bbcbeb882c5d705a125c26fcee9eceb79",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/productList.cls-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/productList.cls-meta.xml",
+            "isDirectory": false,
+            "size": 189,
+            "modifiedTime": 1560785420167,
+            "changeTime": 1560785420167,
+            "contentHash": "0d58e0d5a4689c26c661303037294074afb4e6c4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.html",
+            "isDirectory": false,
+            "size": 388,
+            "modifiedTime": 1560888627639,
+            "changeTime": 1560888627639,
+            "contentHash": "cf63ed99ba0a2791f6e629150aadc338a6cdd1e3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.js",
+            "isDirectory": false,
+            "size": 292,
+            "modifiedTime": 1560866294337,
+            "changeTime": 1560866294337,
+            "contentHash": "54dd0a6bb6103b4aa4f04e2b0615908cee74995b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.js-meta.xml",
+            "isDirectory": false,
+            "size": 301,
+            "modifiedTime": 1560786301252,
+            "changeTime": 1560786301252,
+            "contentHash": "04c4d27975a57f63e61fc694c9341b7c1af7bd64",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1560793513823,
+            "changeTime": 1560793513823,
+            "contentHash": "a67347a9a97a1b0e141e8e2c7a4541ee78ea1f12",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.html",
+        {
+            "state": "u",
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1264,
+            "modifiedTime": 1560889602866,
+            "changeTime": 1560889602866,
+            "isWorkspace": false,
+            "contentHash": "8d7b98d99c842170fcd00265f1ac4a39f238e3d3"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.js",
+            "isDirectory": false,
+            "size": 553,
+            "modifiedTime": 1560888925988,
+            "changeTime": 1560888925988,
+            "contentHash": "342e3c159deb9986c254b751f4019fb4814d76e4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.js-meta.xml",
+            "isDirectory": false,
+            "size": 223,
+            "modifiedTime": 1560793513823,
+            "changeTime": 1560793513823,
+            "contentHash": "8db8ebaf173991faf31cb36374975d53be9f46f2",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1560825049677,
+            "changeTime": 1560825049677,
+            "contentHash": "825dc4f64293d1cb0763368d6a5b772afed59972",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub/pubsub.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub/pubsub.js",
+            "isDirectory": false,
+            "size": 3123,
+            "modifiedTime": 1560825067550,
+            "changeTime": 1560825067550,
+            "contentHash": "dceafbbe1197f3c0488d0d9edf4045fbe387c261",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub/pubsub.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub/pubsub.js-meta.xml",
+            "isDirectory": false,
+            "size": 221,
+            "modifiedTime": 1560825045029,
+            "changeTime": 1560825045029,
+            "contentHash": "1061aef2761c09db5489ef2c8cf4a7e284627a5d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead",
+            "isDirectory": true,
+            "size": 256,
+            "modifiedTime": 1560869081575,
+            "changeTime": 1560869659551,
+            "contentHash": "6cfd3b7ad1d4d0b137f5096bf3b09c6669b4d1a2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1548969824000,
+            "changeTime": 1560869654876,
+            "contentHash": "48691914d443ab2178991ed142f6383fa1f8934b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1548969824000,
+            "changeTime": 1560869654868,
+            "contentHash": "de8e12a919c60ac6db0abb30857b80537e253b53",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1548969824000,
+            "changeTime": 1560869654872,
+            "contentHash": "c0b899ed321b29a6b62e9385c349a21ca5b6dfe6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1548969826000,
+            "changeTime": 1560869654853,
+            "contentHash": "17f59d11cc11a0fee006658ac823cc4502b8fc8c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1548969826000,
+            "changeTime": 1560869654860,
+            "contentHash": "583ea103d0c901b5630f6250ce2f9f9e8ede268a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data/data.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data/data.js",
+            "isDirectory": false,
+            "size": 8845,
+            "modifiedTime": 1545329638000,
+            "changeTime": 1560869654874,
+            "contentHash": "9c548e780dbae73a82903e46a26ad7f5766177a9",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data/data.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data/data.js-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1543979904000,
+            "changeTime": 1560869654873,
+            "contentHash": "cd5aed137b091f8314d531bfe8a980b54ab2278f",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.css",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.css",
+            "isDirectory": false,
+            "size": 23,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654863,
+            "contentHash": "db42856c3234c4b0c839be4c8da2f30d3654e613",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.html",
+            "isDirectory": false,
+            "size": 836,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654866,
+            "contentHash": "e8f1f1124da682dde6d43d7470406600ffa166e1",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.js",
+            "isDirectory": false,
+            "size": 643,
+            "modifiedTime": 1548969882000,
+            "changeTime": 1560869654867,
+            "contentHash": "c3accdb7e3d42f696e9df260a628c6a6e1af864e",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.js-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1543979922000,
+            "changeTime": 1560869654865,
+            "contentHash": "cd5aed137b091f8314d531bfe8a980b54ab2278f",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.css",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.css",
+            "isDirectory": false,
+            "size": 79,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654869,
+            "contentHash": "388e15b260546598e02ae111e439d2c61f341507",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.html",
+            "isDirectory": false,
+            "size": 299,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654870,
+            "contentHash": "f6566646d9790382496635316b735b9ee4b77b66",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.js",
+            "isDirectory": false,
+            "size": 441,
+            "modifiedTime": 1544384188000,
+            "changeTime": 1560869654871,
+            "contentHash": "2735fbb05df5a58f8283fd2776038343e399c6ca",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.js-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1543979822000,
+            "changeTime": 1560869654872,
+            "contentHash": "cd5aed137b091f8314d531bfe8a980b54ab2278f",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.css",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.css",
+            "isDirectory": false,
+            "size": 551,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654850,
+            "contentHash": "0a15ac77e3e200cd054a1a8e167e26da469a4796",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.html",
+            "isDirectory": false,
+            "size": 437,
+            "modifiedTime": 1544385064000,
+            "changeTime": 1560869654853,
+            "contentHash": "232fa7b87589f8de69b921a0d2d25bf4f6680814",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.js",
+            "isDirectory": false,
+            "size": 227,
+            "modifiedTime": 1544384040000,
+            "changeTime": 1560869654849,
+            "contentHash": "b03a63a163ea675d0cf611dd674cd6b030a0215e",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.js-meta.xml",
+            "isDirectory": false,
+            "size": 373,
+            "modifiedTime": 1547925768000,
+            "changeTime": 1560869654851,
+            "contentHash": "44a0aafe74ea60316ec11f2adf771ded072c95ab",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.css",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.css",
+            "isDirectory": false,
+            "size": 437,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654857,
+            "contentHash": "4dac94164b9fb3b266d95fcd3cc0d7032ada8e44",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.html",
+            "isDirectory": false,
+            "size": 257,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654855,
+            "contentHash": "ebeb21c7735a0b63ac5e1a320f6e9cc59369feaf",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.js",
+            "isDirectory": false,
+            "size": 378,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654856,
+            "contentHash": "5eb1aac83b8dfad90724829057859270b1b2b67a",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.js-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1543979806000,
+            "changeTime": 1560869654860,
+            "contentHash": "cd5aed137b091f8314d531bfe8a980b54ab2278f",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ]
 ]

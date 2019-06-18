@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Products" class="slds-m-around_xx-small">
+        <template if:true={prodList.data}>
+            <template for:each={prodList.data} for:item="pro">
+                <c-products product={pro} key={pro.Id} onhandlebuttonclick={handleTileClick}>
+                </c-products>
+            </template>
+        </template>
+    </lightning-card>
+
+</template>

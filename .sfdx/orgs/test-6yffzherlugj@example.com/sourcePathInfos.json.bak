@@ -4,12 +4,12 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app",
             "isDirectory": true,
-            "size": 128,
-            "modifiedTime": 1560130975887,
-            "changeTime": 1560130975887,
-            "contentHash": "51d86f3b64a3d9a0048d192f02147b0e9e9594e4",
+            "size": 160,
+            "modifiedTime": 1560869659551,
+            "changeTime": 1560869659551,
+            "contentHash": "9205e9148178cbccba555a4969d567c4bacb457c",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": true
         }
@@ -24,7 +24,7 @@
             "changeTime": 1560130975884,
             "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -32,42 +32,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default",
             "isDirectory": true,
+            "size": 480,
+            "modifiedTime": 1560785021146,
+            "changeTime": 1560785021146,
+            "contentHash": "b949237ff78de62f76bfbfb85cb740488bbd0158",
             "isMetadataFile": false,
-            "size": 512,
-            "modifiedTime": 1560784645484,
-            "changeTime": 1560784645484,
-            "contentHash": "8562ed5b77c52614a922cfbec2fca2b19e0b0bae"
-        }
-    ],
-    [
-        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/appMenus",
-        {
-            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/appMenus",
-            "isDirectory": true,
-            "size": 96,
-            "modifiedTime": 1560777334101,
-            "changeTime": 1560777334101,
-            "contentHash": "7c65d70563206b380e20367663fe2cc611131a2d",
-            "isMetadataFile": false,
-            "state": "n",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/appMenus/AppSwitcher.appMenu-meta.xml",
-        {
-            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/appMenus/AppSwitcher.appMenu-meta.xml",
-            "isDirectory": false,
-            "size": 1996,
-            "modifiedTime": 1560777334101,
-            "changeTime": 1560777334101,
-            "contentHash": "0b2f35f5f9e023c213fb366d2f3535fd321a0ada",
-            "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -82,7 +54,7 @@
             "changeTime": 1560129655251,
             "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -92,12 +64,12 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes",
             "isDirectory": true,
-            "size": 192,
-            "modifiedTime": 1560378563426,
-            "changeTime": 1560378563426,
-            "contentHash": "6e76bf3e8fd0e75bbae9dd43897deea58b288e16",
+            "size": 256,
+            "modifiedTime": 1560785420167,
+            "changeTime": 1560785420167,
+            "contentHash": "4cd89a71abedfcb8d1f9f3f8277e685dd31e2f96",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -112,7 +84,7 @@
             "changeTime": 1560215508693,
             "contentHash": "921aa94422d45f93d80f91c2f954769c40fea540",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -127,7 +99,7 @@
             "changeTime": 1560134056249,
             "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -142,7 +114,7 @@
             "changeTime": 1560652129891,
             "contentHash": "3e20bd1bbfb6f5339dca380d16df204e4ac73b25",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -157,7 +129,7 @@
             "changeTime": 1560378563426,
             "contentHash": "71bb78afb98ef369ca1590969b20ad32cc1f6001",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -172,7 +144,7 @@
             "changeTime": 1560545121893,
             "contentHash": "d35cda53fc9ed8e10fbf1988769b41b09f34f11c",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -187,7 +159,7 @@
             "changeTime": 1560545121893,
             "contentHash": "a24020112409c2a8482762c7f6fcba3669bcea06",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -202,7 +174,7 @@
             "changeTime": 1560545121847,
             "contentHash": "cabecc57f46566b4596ca35db718ccb4ba0ecb10",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -217,7 +189,7 @@
             "changeTime": 1560545121847,
             "contentHash": "b0c8c415920eb848920e70b2184ed02713b27bb8",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -232,7 +204,7 @@
             "changeTime": 1560777334052,
             "contentHash": "d64c5efa9d6987b7264601703aad86226ce67234",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -247,7 +219,7 @@
             "changeTime": 1560545121842,
             "contentHash": "a26cef0967f1f4ac1c71bad1153cefbfc618f8dd",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -262,7 +234,7 @@
             "changeTime": 1560545121842,
             "contentHash": "13a0ce2a8c8f6054ceff2e870d6cb43a788eccde",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -277,7 +249,7 @@
             "changeTime": 1560545121839,
             "contentHash": "dad7869c8867c7e532e6681e40cfb9bb91d63467",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -292,7 +264,7 @@
             "changeTime": 1560545121837,
             "contentHash": "633050c69eaf47688defcc973b0dd66631a5fa47",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -302,12 +274,12 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc",
             "isDirectory": true,
-            "size": 384,
-            "modifiedTime": 1560712964405,
-            "changeTime": 1560712964405,
-            "contentHash": "57495b7a564e1d8932cd066c78935afab9f1c3da",
+            "size": 480,
+            "modifiedTime": 1560825045027,
+            "changeTime": 1560825045027,
+            "contentHash": "4aebbf427e8f0f38b957e28e0600f3d5315a97ee",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -322,7 +294,7 @@
             "changeTime": 1560200449725,
             "contentHash": "370af54119ddbeac414715f4b99893115b0b552c",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -337,7 +309,7 @@
             "changeTime": 1560216718238,
             "contentHash": "19538512708a4a0b898e88f768f676224997d6f5",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -352,7 +324,7 @@
             "changeTime": 1560214720160,
             "contentHash": "e9d3494edb485e2c7e2785e589f16aa96bd9b99b",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -367,7 +339,7 @@
             "changeTime": 1560202368439,
             "contentHash": "40f2f5fd581375d27cf48de23b93f00f79a20e11",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -382,7 +354,7 @@
             "changeTime": 1560471047232,
             "contentHash": "e7c624f88944daadb330e6693f9b2febb01c6071",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -397,7 +369,7 @@
             "changeTime": 1560471506536,
             "contentHash": "f793465e37f5effb02621a6d92d48bb3dcfc5c70",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -412,7 +384,7 @@
             "changeTime": 1560471047231,
             "contentHash": "7773b728c8d251beead584b27af8dedd2cf4d11f",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -427,7 +399,7 @@
             "changeTime": 1560471047232,
             "contentHash": "035fe781d1dae8dfdeff33547e1e710c5b495549",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -442,7 +414,7 @@
             "changeTime": 1560361970933,
             "contentHash": "80506211422dc3ab8a4357fca6c81d72d0e4982d",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -457,7 +429,7 @@
             "changeTime": 1560132876422,
             "contentHash": "f77f405276fce2c457b8423303ffccb5a455abce",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -472,7 +444,7 @@
             "changeTime": 1560132876421,
             "contentHash": "a4582cfeb8c62de2fe1e81f567f88fe32dc104cd",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -487,7 +459,7 @@
             "changeTime": 1560132876421,
             "contentHash": "8a273b54cbc9f7f6b1528cae02f210e122d037ea",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -502,7 +474,7 @@
             "changeTime": 1560697975067,
             "contentHash": "4d8a63cff3a166fffe4f5ecb4080f7151f8b9f5c",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -517,7 +489,7 @@
             "changeTime": 1560703059531,
             "contentHash": "5267d483b870745f3993f1e1c3cd7017a5c03b0e",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -532,7 +504,7 @@
             "changeTime": 1560712907471,
             "contentHash": "f1c26c36f3a52c489050c7bed745e09e169b64ff",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -547,7 +519,7 @@
             "changeTime": 1560697975067,
             "contentHash": "e25e642b79a9295b1d95c92bee5e5fc08e0dea91",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -562,7 +534,7 @@
             "changeTime": 1560697965914,
             "contentHash": "3d1e48a77d9cb977fe3d4b702482f6be997c12e9",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -577,7 +549,7 @@
             "changeTime": 1560703172525,
             "contentHash": "15d7e36629e7d8f1302159e9b6741d9893759a90",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -592,7 +564,7 @@
             "changeTime": 1560706957861,
             "contentHash": "c43d0a9dcdd22da65d2e5a7b57efddea82000ae4",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -607,7 +579,7 @@
             "changeTime": 1560699330701,
             "contentHash": "61440ac00249be61e4bf2d153016544bc25ce6e6",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -622,7 +594,7 @@
             "changeTime": 1560723672107,
             "contentHash": "ca2d4382f921e83cee45052adbbd790615da4a93",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -637,7 +609,7 @@
             "changeTime": 1560723672108,
             "contentHash": "447ba9151c312b715a9b8afb09a12964815df450",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -652,7 +624,7 @@
             "changeTime": 1560652511447,
             "contentHash": "74a766fca5b2663ad532e0a42474821ada7a1a9b",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -667,7 +639,7 @@
             "changeTime": 1560381537023,
             "contentHash": "655811cdedab4b25da94055137f266f7bb696e11",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -682,7 +654,7 @@
             "changeTime": 1560712964407,
             "contentHash": "c00732faa4bdcd87eebc0e010bd984fc810b78ab",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -697,7 +669,7 @@
             "changeTime": 1560723684667,
             "contentHash": "47da866fc7668dda5414eb1626df35d00de6944d",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -712,7 +684,7 @@
             "changeTime": 1560730514788,
             "contentHash": "4d897d03410ff3691a61e92c40b5cd207bff922b",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -727,7 +699,7 @@
             "changeTime": 1560722953081,
             "contentHash": "ff55edfcae2a0abc05b84d899861e82f5d97bb01",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -742,7 +714,7 @@
             "changeTime": 1560556128446,
             "contentHash": "200ebfdd84b81e7eecee9c0f979f69e7a2756dbe",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -757,7 +729,7 @@
             "changeTime": 1560556149980,
             "contentHash": "c88ea0d003ab3d5a247ab983afda5d0da43bc9ce",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -772,7 +744,7 @@
             "changeTime": 1560558675738,
             "contentHash": "c05d12c1270abf10e2e1b6da386aa0766d12dafc",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -787,7 +759,7 @@
             "changeTime": 1560556193587,
             "contentHash": "6457a1f557233ef35a326301ce745e665e6ed129",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -802,7 +774,7 @@
             "changeTime": 1560135134681,
             "contentHash": "f322e0aacbc9a5727e0a931c5b0ff9441761f1e7",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -817,7 +789,7 @@
             "changeTime": 1560135169035,
             "contentHash": "a6f710139621de89cd48359ea1d0eacf0446d23d",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -832,7 +804,7 @@
             "changeTime": 1560134422768,
             "contentHash": "5dd591e45e6f00ccfa1973d4308ee6f36fc5fb42",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -847,7 +819,7 @@
             "changeTime": 1560133781812,
             "contentHash": "0045163d719dc663a88b7e09d63b4565f2c370ff",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -862,7 +834,7 @@
             "changeTime": 1560132216789,
             "contentHash": "2485668a3437d5add365adc6395699585c0ec6d0",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -877,7 +849,7 @@
             "changeTime": 1560132216789,
             "contentHash": "1dee20ac58a40482934d035192fe7a98db6d9a81",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -892,7 +864,7 @@
             "changeTime": 1560133781810,
             "contentHash": "bb6c857aba566d5a867fc8eb2ef33701feaa136e",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -907,7 +879,7 @@
             "changeTime": 1560132216789,
             "contentHash": "428d667e4a7e884d30e9f297f975d2a6484dc2cd",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -922,7 +894,7 @@
             "changeTime": 1560132216789,
             "contentHash": "780b69fd147e2be6a8e2388d7c4336e215f67586",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -937,7 +909,7 @@
             "changeTime": 1560132216790,
             "contentHash": "b2a6d6cc0822db9616bc68852769a9ce9e31b8cb",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -952,7 +924,7 @@
             "changeTime": 1560133781810,
             "contentHash": "29a1e5d3eeaa43c310327c323fc51bac55de247a",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -967,7 +939,7 @@
             "changeTime": 1560132216790,
             "contentHash": "c36e183fef5796b39d7f2abad313817f99c74127",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -982,7 +954,7 @@
             "changeTime": 1560132216790,
             "contentHash": "57d79a023b3596766f7369502cb5e2bac6a5cb92",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -997,7 +969,7 @@
             "changeTime": 1560132216790,
             "contentHash": "b9eafa97bfa4f532b3645d306161068341cd99dd",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1012,7 +984,7 @@
             "changeTime": 1560132216791,
             "contentHash": "7531bb94080187ff2cb7ab86658d706842b99d1f",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1027,7 +999,7 @@
             "changeTime": 1560132216791,
             "contentHash": "6f0a5236c2130d964cc6b9654fd5f11e512dca47",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1042,7 +1014,7 @@
             "changeTime": 1560132216791,
             "contentHash": "4ada28399de9ac97f1dc447fb1aaa8b887d11974",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1057,7 +1029,7 @@
             "changeTime": 1560132216791,
             "contentHash": "1cf643f5c1633de90169cdb7628f965ac9d927f3",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1072,7 +1044,7 @@
             "changeTime": 1560132216791,
             "contentHash": "5f0f4a91707a74fee313ea9dbc09659724dfd2f0",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1087,7 +1059,7 @@
             "changeTime": 1560132216792,
             "contentHash": "68769f37d93e5a8c8bc5ad8c2581f0f06ddca5f9",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1102,7 +1074,7 @@
             "changeTime": 1560132216792,
             "contentHash": "9d2f6c78b600962d19202740171268557046a498",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1117,7 +1089,7 @@
             "changeTime": 1560133781810,
             "contentHash": "eb38892ccd65bc69d70897b8069ae5e433b2df8b",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1132,7 +1104,7 @@
             "changeTime": 1560132216792,
             "contentHash": "e05e34427505b15fb131b564768c9199ddf39c9e",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1147,7 +1119,7 @@
             "changeTime": 1560132216793,
             "contentHash": "52c2c64fa2e6525fc461c88e9c37849e89259798",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1162,7 +1134,7 @@
             "changeTime": 1560132216793,
             "contentHash": "d84c9b729263e5159ea9a88550f4941bde5aa50e",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1177,7 +1149,7 @@
             "changeTime": 1560132216793,
             "contentHash": "a189aa9e1c94d29eb1f90c9544bfbd668be25cff",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1192,7 +1164,7 @@
             "changeTime": 1560132216794,
             "contentHash": "d58ccb85259d8a88abf129f4ea89ea8304963487",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1207,7 +1179,7 @@
             "changeTime": 1560132216794,
             "contentHash": "a8224eb175152b9deed680b818cbffd218dd5e3f",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1222,7 +1194,7 @@
             "changeTime": 1560133781811,
             "contentHash": "f8f81ab4cce6d2e54a1ddcf948fd72509610680c",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1237,7 +1209,7 @@
             "changeTime": 1560133781811,
             "contentHash": "865775b6cbae076f26e1ceaa271e96db30ba700f",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1252,7 +1224,7 @@
             "changeTime": 1560133781811,
             "contentHash": "045ca616a8bfca7f2f8c3e089838b1b40d376c11",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1267,7 +1239,7 @@
             "changeTime": 1560132216794,
             "contentHash": "c30026606731cd625b5d0b4e8e529a2418ef1ee6",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1282,7 +1254,7 @@
             "changeTime": 1560132216795,
             "contentHash": "33262a22c31dbefac748023c3a6c018d743d3161",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1297,7 +1269,7 @@
             "changeTime": 1560132216795,
             "contentHash": "bc19f903ec1384e12d7dd7bc9ffa88580a091422",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1312,7 +1284,7 @@
             "changeTime": 1560132216796,
             "contentHash": "0f2240d03c79c58a0992338cd2a62f8aa201a0a7",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1327,7 +1299,7 @@
             "changeTime": 1560132216796,
             "contentHash": "9d08b4f2d44e5bd6161a034a999f2fd3f8179f49",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1342,7 +1314,7 @@
             "changeTime": 1560132216796,
             "contentHash": "61dbe3cf77a2129e24ff09777f38f47e6ccb1297",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1357,7 +1329,7 @@
             "changeTime": 1560132216797,
             "contentHash": "3467b15d43e2f23e3287cad8cd0622c58b3fdc61",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1372,7 +1344,7 @@
             "changeTime": 1560133781812,
             "contentHash": "6cb0cb263777ce3dfdd3be11036a77e8a019da78",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1387,7 +1359,7 @@
             "changeTime": 1560132216797,
             "contentHash": "38590f00b03c4be8e4116dff68bdeaf0d829bfea",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1402,7 +1374,7 @@
             "changeTime": 1560132216797,
             "contentHash": "797d4a2003a4dc2b7d0b5a3114a8afef7440ccfb",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1417,7 +1389,7 @@
             "changeTime": 1560134600287,
             "contentHash": "b4476a1f712e40eb3fdfc2d08f8844c4f4fcb04e",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1432,7 +1404,7 @@
             "changeTime": 1560135240998,
             "contentHash": "25588b6057e165dc8520b41b0883660e54a1be69",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1447,7 +1419,7 @@
             "changeTime": 1560134600286,
             "contentHash": "4cd86db581f52363b344a7c71d5e7b0cd2b53ac9",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1462,7 +1434,7 @@
             "changeTime": 1560134600287,
             "contentHash": "78397d265f930d78ba4b80939c185d843ca0159d",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1477,7 +1449,7 @@
             "changeTime": 1560134600287,
             "contentHash": "9bc2732ea281e6a67366c1baf323a5da873ce01a",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1492,7 +1464,7 @@
             "changeTime": 1560134600287,
             "contentHash": "52e53fa2623bfc1b6db9c16f1a27f903fc19fcfa",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1507,7 +1479,7 @@
             "changeTime": 1560134600287,
             "contentHash": "5f6812369bed74a878f8accbc8424a16ea3d22b5",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1522,7 +1494,7 @@
             "changeTime": 1560133781814,
             "contentHash": "0caec06144c909e4216d06654080dee841554608",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1537,7 +1509,7 @@
             "changeTime": 1560133781814,
             "contentHash": "ae9648d035d739cc9d6410b71a5fb48123e6463f",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1552,7 +1524,7 @@
             "changeTime": 1560135134683,
             "contentHash": "8921fabb2acf7dc9a33ff10eec34fde63b7b542f",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1567,7 +1539,7 @@
             "changeTime": 1560135134682,
             "contentHash": "2659dac68a1f042396c08538901cad4764ea1e50",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1582,7 +1554,7 @@
             "changeTime": 1560135134683,
             "contentHash": "caf1ae3a2fabad5929a26e7543ca09dbe3d0bbba",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1597,7 +1569,7 @@
             "changeTime": 1560135134682,
             "contentHash": "29c221e8aa884b0f019f6ef16d7854e5f750e720",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1612,7 +1584,7 @@
             "changeTime": 1560135134682,
             "contentHash": "a857ee4a8ac8b882ae9f2b6beb32299ff81ce909",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1627,7 +1599,7 @@
             "changeTime": 1560135134683,
             "contentHash": "a6c0b72f2e81bfac6cba9dd5478a5ec4b78d775f",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1642,7 +1614,7 @@
             "changeTime": 1560135134683,
             "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1657,7 +1629,7 @@
             "changeTime": 1560135134683,
             "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1672,7 +1644,7 @@
             "changeTime": 1560133781840,
             "contentHash": "4768199c1f74b134d7c6bba8851d183a2e3df12c",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1687,7 +1659,7 @@
             "changeTime": 1560132216820,
             "contentHash": "3d0cbf70d11deba15a7281b65f3f8a0eab1711f6",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1702,7 +1674,7 @@
             "changeTime": 1560133781840,
             "contentHash": "9ef5ade644ff765ac491893087d90b35704dff68",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1717,7 +1689,7 @@
             "changeTime": 1560132216821,
             "contentHash": "a5c3f07ba3a348335908401256dd2d9998990fcf",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1732,7 +1704,7 @@
             "changeTime": 1560132216821,
             "contentHash": "84c07618a25ba4a26dcbb7fdea901e9cfb7bdfea",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1747,7 +1719,7 @@
             "changeTime": 1560132216822,
             "contentHash": "d7e98ed90f81499c3b80a6121310c8e81353db12",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1762,7 +1734,7 @@
             "changeTime": 1560132216822,
             "contentHash": "104e9a00a8886c6a98a247cf4d799fca91cb5cf6",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1777,7 +1749,7 @@
             "changeTime": 1560132216822,
             "contentHash": "b2a6d6cc0822db9616bc68852769a9ce9e31b8cb",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1792,7 +1764,7 @@
             "changeTime": 1560132216822,
             "contentHash": "3b56db2ab17440e863bd220f7b949c6666a8aa21",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1807,7 +1779,7 @@
             "changeTime": 1560132216823,
             "contentHash": "57d79a023b3596766f7369502cb5e2bac6a5cb92",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1822,7 +1794,7 @@
             "changeTime": 1560132216823,
             "contentHash": "a69a1b0e3f0e15fe44c968e2d0c859d8a264cb1a",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1837,7 +1809,7 @@
             "changeTime": 1560132216823,
             "contentHash": "59513f0c3aba9cf2ca1fa13dd33c44eba996ef42",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1852,7 +1824,7 @@
             "changeTime": 1560132216823,
             "contentHash": "7531bb94080187ff2cb7ab86658d706842b99d1f",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1867,7 +1839,7 @@
             "changeTime": 1560132216824,
             "contentHash": "ff5f1905a424ffb80a86c672ce8a2484010686e7",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1882,7 +1854,7 @@
             "changeTime": 1560132216824,
             "contentHash": "8436af1a1e25d1251260bd40b57c3d17b97ff22d",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1897,7 +1869,7 @@
             "changeTime": 1560132216824,
             "contentHash": "0bf76b491bbd8c15dd147134365be4f3c3f46c31",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1912,7 +1884,7 @@
             "changeTime": 1560132216824,
             "contentHash": "4ada28399de9ac97f1dc447fb1aaa8b887d11974",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1927,7 +1899,7 @@
             "changeTime": 1560133781839,
             "contentHash": "bf772125c4e77a1bdb5997c83c7915babf266330",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1942,7 +1914,7 @@
             "changeTime": 1560132216825,
             "contentHash": "dda4a3e4f235d3020ac7ec9ecad60f97db34e5ff",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1957,7 +1929,7 @@
             "changeTime": 1560132216825,
             "contentHash": "831121050c56f562af9389f75edae3a5ab0351f1",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1972,7 +1944,7 @@
             "changeTime": 1560132216825,
             "contentHash": "2edc10a4308166ada8b0fc2bece939fb3eea84b8",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -1987,7 +1959,7 @@
             "changeTime": 1560133781840,
             "contentHash": "7ab95b0a1b0c2d75a772d9ea83361375e19db83e",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2002,7 +1974,7 @@
             "changeTime": 1560132216825,
             "contentHash": "2aee360d036169b3a3b599183c72b43d549f6b61",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2017,7 +1989,7 @@
             "changeTime": 1560132216826,
             "contentHash": "877087142debc4ed3ae3ae152908d60f1e5b8e4e",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2032,7 +2004,7 @@
             "changeTime": 1560132216826,
             "contentHash": "68769f37d93e5a8c8bc5ad8c2581f0f06ddca5f9",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2047,7 +2019,7 @@
             "changeTime": 1560132216826,
             "contentHash": "dd9820d5134fc39ed321237cbdef5a60b5776771",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2062,7 +2034,7 @@
             "changeTime": 1560132216827,
             "contentHash": "3d50c3aaf57f7e42a001693e02e91ae0222af0e8",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2077,7 +2049,7 @@
             "changeTime": 1560132216827,
             "contentHash": "52c2c64fa2e6525fc461c88e9c37849e89259798",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2092,7 +2064,7 @@
             "changeTime": 1560132216827,
             "contentHash": "d58ccb85259d8a88abf129f4ea89ea8304963487",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2107,7 +2079,7 @@
             "changeTime": 1560132216827,
             "contentHash": "7252f1ae0d0fff985c8d3d75c2c66b704d304262",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2122,7 +2094,7 @@
             "changeTime": 1560133781840,
             "contentHash": "839773c5f904b9323b6a4abae6b3a07dba551c64",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2137,7 +2109,7 @@
             "changeTime": 1560132216827,
             "contentHash": "8a48fbd36a0119a80ca1a7b0a48a57b35bd03141",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2152,7 +2124,7 @@
             "changeTime": 1560133781842,
             "contentHash": "fdd6e7e6e1dff4a43f0a13b94a9255c2aab9b3a1",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2167,7 +2139,7 @@
             "changeTime": 1560133781841,
             "contentHash": "b1890d7f9fe00ddd4a6dc20150314c3e5cc7bac9",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2182,7 +2154,7 @@
             "changeTime": 1560133781841,
             "contentHash": "f4296d09b623a562e0d0769e8eec6c0c40529c1f",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2197,7 +2169,7 @@
             "changeTime": 1560133781841,
             "contentHash": "97534343a3a56570c391065168b4b317964498a8",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2212,7 +2184,7 @@
             "changeTime": 1560133781842,
             "contentHash": "926e72493feb4edbe83f4d15bf8f65c0ed16f06f",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2227,7 +2199,7 @@
             "changeTime": 1560133781842,
             "contentHash": "8f5af3e68ca4a765b1e8289468b3bed022fc9488",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2242,7 +2214,7 @@
             "changeTime": 1560134056332,
             "contentHash": "fa0f6468dac2d2afd587489a6e8232ab396391ed",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2257,7 +2229,7 @@
             "changeTime": 1560134056332,
             "contentHash": "2e9011c75dde40553193140000eb7041b16744ac",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2272,7 +2244,7 @@
             "changeTime": 1560134056332,
             "contentHash": "ce78ddc5e3db898691cc063fb85dc88a80f5c3d7",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2287,7 +2259,7 @@
             "changeTime": 1560134056332,
             "contentHash": "01669af2d9d73250a26b7ecc078a491683ac2607",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2302,7 +2274,7 @@
             "changeTime": 1560134056332,
             "contentHash": "dd113807091d3f8c692dc1785a2c7e3be91ee1d2",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2317,7 +2289,7 @@
             "changeTime": 1560135134717,
             "contentHash": "a964b3fefe33f576a142d8fd1df9099cac55e457",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2332,7 +2304,7 @@
             "changeTime": 1560545121831,
             "contentHash": "624e5b0324da951a899864d8b40519de6d7eec16",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2347,7 +2319,7 @@
             "changeTime": 1560134056342,
             "contentHash": "c181fdba2435af8af9f2b70d0df297670df135ac",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2362,7 +2334,7 @@
             "changeTime": 1560134056341,
             "contentHash": "9b7503baa3890dcb1422897be0b4ed1f4990d733",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2377,7 +2349,7 @@
             "changeTime": 1560134056341,
             "contentHash": "29c221e8aa884b0f019f6ef16d7854e5f750e720",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2392,7 +2364,7 @@
             "changeTime": 1560134056342,
             "contentHash": "4365840900c6939cbf66f49bbf141b43bd0dc16a",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2407,7 +2379,7 @@
             "changeTime": 1560134056342,
             "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2422,7 +2394,7 @@
             "changeTime": 1560134056342,
             "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2433,11 +2405,11 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles",
             "isDirectory": true,
             "size": 192,
-            "modifiedTime": 1560545121889,
-            "changeTime": 1560545121889,
+            "modifiedTime": 1560784645481,
+            "changeTime": 1560784645481,
             "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2445,14 +2417,16 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/profiles/Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 32929,
             "modifiedTime": 1560784645481,
             "changeTime": 1560784645481,
-            "contentHash": "78d5081ae648d2ad38ff173d363ae83b8e5687d8"
+            "contentHash": "78d5081ae648d2ad38ff173d363ae83b8e5687d8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2465,7 +2439,7 @@
             "changeTime": 1560545121874,
             "contentHash": "6fd4cca7047d957044bd7e8e1aa7a40eca2c957a",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2480,7 +2454,7 @@
             "changeTime": 1560545121889,
             "contentHash": "6fd4cca7047d957044bd7e8e1aa7a40eca2c957a",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2495,7 +2469,7 @@
             "changeTime": 1560545121885,
             "contentHash": "d1ac6aa055fc6929af94c622a20e8f5e7c4f2d23",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2510,7 +2484,7 @@
             "changeTime": 1560545121891,
             "contentHash": "e364e4d3c503804e0ca6d6bb92ab9cc0ceac2327",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2525,7 +2499,7 @@
             "changeTime": 1560545121892,
             "contentHash": "a0cadba26057efa4350b58d02a7bcf1d669f020a",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2540,7 +2514,7 @@
             "changeTime": 1560545121820,
             "contentHash": "60f1bed91f52a79079f79cfb08f7750f0c4f5296",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2555,7 +2529,7 @@
             "changeTime": 1560545121820,
             "contentHash": "058bab70e95d34b0640ab14288f8bc93828708f0",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2570,7 +2544,7 @@
             "changeTime": 1560545121819,
             "contentHash": "c5ae89a08d0469ad1b16ff5ef26d4cf4b7ffe209",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2585,7 +2559,7 @@
             "changeTime": 1560556228372,
             "contentHash": "ffbc421b225b69f28d5f5463fcba0f30765b0e16",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2600,7 +2574,7 @@
             "changeTime": 1560545121814,
             "contentHash": "c5ae89a08d0469ad1b16ff5ef26d4cf4b7ffe209",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2615,7 +2589,7 @@
             "changeTime": 1560545121851,
             "contentHash": "3db53698e998f08b13597ded0627fd41af37a6e9",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2630,7 +2604,7 @@
             "changeTime": 1560545121851,
             "contentHash": "2fa3f041d5583326b71de41103a1438aa7fbc35b",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2645,7 +2619,7 @@
             "changeTime": 1560545121849,
             "contentHash": "063f8013efa57d1484f8fb4a53d7d94bfbb4c195",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2660,7 +2634,7 @@
             "changeTime": 1560545121850,
             "contentHash": "01e1520670e7de1ffa1bdb91368f78ce2782a1db",
             "isMetadataFile": true,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -2671,11 +2645,11 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919",
             "isDirectory": true,
             "size": 416,
-            "modifiedTime": 1560134006810,
+            "modifiedTime": 1560869659551,
             "changeTime": 1560134006810,
             "contentHash": "8f9253aec4fa9d35e245302f4f3e0de8ef76c7a4",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": true,
             "isArtifactRoot": false
         }
@@ -2683,27 +2657,583 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/networks/E-Bikes.network-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/networks/E-Bikes.network-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 3889,
             "modifiedTime": 1560784645484,
             "changeTime": 1560784645484,
-            "contentHash": "c72e54c543945abd53c6a1dbe53e3f9f77564e1e"
+            "contentHash": "c72e54c543945abd53c6a1dbe53e3f9f77564e1e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/networks",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/networks",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1560784645484,
             "changeTime": 1560784645484,
-            "contentHash": "8e715febe3449f03198466ef3d31338953cfdfd1"
+            "contentHash": "8e715febe3449f03198466ef3d31338953cfdfd1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1560785100220,
+            "changeTime": 1560785100220,
+            "contentHash": "54f37fa910327f98222911861bb9c7f3cb8445fc",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/productList.cls",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/productList.cls",
+            "isDirectory": false,
+            "size": 338,
+            "modifiedTime": 1560786795120,
+            "changeTime": 1560786795120,
+            "contentHash": "07f03d6bbcbeb882c5d705a125c26fcee9eceb79",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/productList.cls-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/productList.cls-meta.xml",
+            "isDirectory": false,
+            "size": 189,
+            "modifiedTime": 1560785420167,
+            "changeTime": 1560785420167,
+            "contentHash": "0d58e0d5a4689c26c661303037294074afb4e6c4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.html",
+            "isDirectory": false,
+            "size": 388,
+            "modifiedTime": 1560888627639,
+            "changeTime": 1560888627639,
+            "contentHash": "cf63ed99ba0a2791f6e629150aadc338a6cdd1e3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.js",
+            "isDirectory": false,
+            "size": 292,
+            "modifiedTime": 1560866294337,
+            "changeTime": 1560866294337,
+            "contentHash": "54dd0a6bb6103b4aa4f04e2b0615908cee74995b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/productList/productList.js-meta.xml",
+            "isDirectory": false,
+            "size": 301,
+            "modifiedTime": 1560786301252,
+            "changeTime": 1560786301252,
+            "contentHash": "04c4d27975a57f63e61fc694c9341b7c1af7bd64",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1560793513823,
+            "changeTime": 1560793513823,
+            "contentHash": "a67347a9a97a1b0e141e8e2c7a4541ee78ea1f12",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.html",
+        {
+            "state": "u",
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1777,
+            "modifiedTime": 1560889514163,
+            "changeTime": 1560889514163,
+            "isWorkspace": false,
+            "contentHash": "99c83e0b2890a13b051fb75acd58b289d9f64e48"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.js",
+            "isDirectory": false,
+            "size": 553,
+            "modifiedTime": 1560888925988,
+            "changeTime": 1560888925988,
+            "contentHash": "342e3c159deb9986c254b751f4019fb4814d76e4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/products/products.js-meta.xml",
+            "isDirectory": false,
+            "size": 223,
+            "modifiedTime": 1560793513823,
+            "changeTime": 1560793513823,
+            "contentHash": "8db8ebaf173991faf31cb36374975d53be9f46f2",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1560825049677,
+            "changeTime": 1560825049677,
+            "contentHash": "825dc4f64293d1cb0763368d6a5b772afed59972",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub/pubsub.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub/pubsub.js",
+            "isDirectory": false,
+            "size": 3123,
+            "modifiedTime": 1560825067550,
+            "changeTime": 1560825067550,
+            "contentHash": "dceafbbe1197f3c0488d0d9edf4045fbe387c261",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub/pubsub.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pubsub/pubsub.js-meta.xml",
+            "isDirectory": false,
+            "size": 221,
+            "modifiedTime": 1560825045029,
+            "changeTime": 1560825045029,
+            "contentHash": "1061aef2761c09db5489ef2c8cf4a7e284627a5d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead",
+            "isDirectory": true,
+            "size": 256,
+            "modifiedTime": 1560869081575,
+            "changeTime": 1560869659551,
+            "contentHash": "6cfd3b7ad1d4d0b137f5096bf3b09c6669b4d1a2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1548969824000,
+            "changeTime": 1560869654876,
+            "contentHash": "48691914d443ab2178991ed142f6383fa1f8934b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1548969824000,
+            "changeTime": 1560869654868,
+            "contentHash": "de8e12a919c60ac6db0abb30857b80537e253b53",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1548969824000,
+            "changeTime": 1560869654872,
+            "contentHash": "c0b899ed321b29a6b62e9385c349a21ca5b6dfe6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1548969826000,
+            "changeTime": 1560869654853,
+            "contentHash": "17f59d11cc11a0fee006658ac823cc4502b8fc8c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1548969826000,
+            "changeTime": 1560869654860,
+            "contentHash": "583ea103d0c901b5630f6250ce2f9f9e8ede268a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data/data.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data/data.js",
+            "isDirectory": false,
+            "size": 8845,
+            "modifiedTime": 1545329638000,
+            "changeTime": 1560869654874,
+            "contentHash": "9c548e780dbae73a82903e46a26ad7f5766177a9",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data/data.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/data/data.js-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1543979904000,
+            "changeTime": 1560869654873,
+            "contentHash": "cd5aed137b091f8314d531bfe8a980b54ab2278f",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.css",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.css",
+            "isDirectory": false,
+            "size": 23,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654863,
+            "contentHash": "db42856c3234c4b0c839be4c8da2f30d3654e613",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.html",
+            "isDirectory": false,
+            "size": 836,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654866,
+            "contentHash": "e8f1f1124da682dde6d43d7470406600ffa166e1",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.js",
+            "isDirectory": false,
+            "size": 643,
+            "modifiedTime": 1548969882000,
+            "changeTime": 1560869654867,
+            "contentHash": "c3accdb7e3d42f696e9df260a628c6a6e1af864e",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/detail/detail.js-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1543979922000,
+            "changeTime": 1560869654865,
+            "contentHash": "cd5aed137b091f8314d531bfe8a980b54ab2278f",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.css",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.css",
+            "isDirectory": false,
+            "size": 79,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654869,
+            "contentHash": "388e15b260546598e02ae111e439d2c61f341507",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.html",
+            "isDirectory": false,
+            "size": 299,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654870,
+            "contentHash": "f6566646d9790382496635316b735b9ee4b77b66",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.js",
+            "isDirectory": false,
+            "size": 441,
+            "modifiedTime": 1544384188000,
+            "changeTime": 1560869654871,
+            "contentHash": "2735fbb05df5a58f8283fd2776038343e399c6ca",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/list/list.js-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1543979822000,
+            "changeTime": 1560869654872,
+            "contentHash": "cd5aed137b091f8314d531bfe8a980b54ab2278f",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.css",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.css",
+            "isDirectory": false,
+            "size": 551,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654850,
+            "contentHash": "0a15ac77e3e200cd054a1a8e167e26da469a4796",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.html",
+            "isDirectory": false,
+            "size": 437,
+            "modifiedTime": 1544385064000,
+            "changeTime": 1560869654853,
+            "contentHash": "232fa7b87589f8de69b921a0d2d25bf4f6680814",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.js",
+            "isDirectory": false,
+            "size": 227,
+            "modifiedTime": 1544384040000,
+            "changeTime": 1560869654849,
+            "contentHash": "b03a63a163ea675d0cf611dd674cd6b030a0215e",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/selector/selector.js-meta.xml",
+            "isDirectory": false,
+            "size": 373,
+            "modifiedTime": 1547925768000,
+            "changeTime": 1560869654851,
+            "contentHash": "44a0aafe74ea60316ec11f2adf771ded072c95ab",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.css",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.css",
+            "isDirectory": false,
+            "size": 437,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654857,
+            "contentHash": "4dac94164b9fb3b266d95fcd3cc0d7032ada8e44",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.html",
+            "isDirectory": false,
+            "size": 257,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654855,
+            "contentHash": "ebeb21c7735a0b63ac5e1a320f6e9cc59369feaf",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.js",
+            "isDirectory": false,
+            "size": 378,
+            "modifiedTime": 1544007836000,
+            "changeTime": 1560869654856,
+            "contentHash": "5eb1aac83b8dfad90724829057859270b1b2b67a",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/LWC-Basics-Bike-Selector-Trailhead/tile/tile.js-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1543979806000,
+            "changeTime": 1560869654860,
+            "contentHash": "cd5aed137b091f8314d531bfe8a980b54ab2278f",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ]
 ]

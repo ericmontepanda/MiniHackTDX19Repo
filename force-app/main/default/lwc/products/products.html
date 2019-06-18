@@ -1,0 +1,27 @@
+<template>
+
+    <div class="slds-box slds-m-around_xx-small slds-grid slds-wrap">
+        <div class="slds-col slds-size_2-of-12 slds-align_absolute-center">
+            <span class="slds-avatar slds-avatar_circle slds-avatar_large slds-align_absolute-center">
+                <img src={product.Picture_URL__c} alt={product.Name} title={product.Name} />
+            </span>
+        </div>
+        <div class="slds-col slds-size_6-of-12 slds-p-horizontal_xxx-small">
+            <div class="slds-truncate" title="Product Name:">Product: {product.Name}</div>
+            <div class="slds-truncate" title="MSRP:">MSRP: ${product.MSRP__c}</div>
+        </div>
+        <div class="slds-col slds-size_4-of-12 slds-align_absolute-center">
+            <lightning-button variant="brand" label="View" onclick={handleTileClick} title={product.Id}>
+            </lightning-button>
+        </div>
+        <!-- BREAK-->
+        <template if:true={selectedprodId}>
+            <div class="slds-box slds-m-around_xx-small slds-grid slds-wrap">
+                HELLO PRODUCTS
+                <img src={product.Picture_URL__c} alt={product.Name} title={product.Name} />
+                Product: {product.Description__c}
+            </div>
+        </template>
+    </div>
+
+</template>
