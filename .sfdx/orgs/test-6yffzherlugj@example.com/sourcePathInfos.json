@@ -271,15 +271,15 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 608,
             "modifiedTime": 1561412555695,
             "changeTime": 1561412555695,
-            "isWorkspace": false,
-            "contentHash": "0ade457c2e6f6d76f89d1b55729d8abebe855619"
+            "contentHash": "0ade457c2e6f6d76f89d1b55729d8abebe855619",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -3345,23 +3345,23 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemExtractor/pfSchemExtractor.html",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 364,
-            "modifiedTime": 1561413272733,
-            "changeTime": 1561413272733,
-            "contentHash": "c56851d8ede706851bcc9171aba73d4e0cc848b6"
+            "size": 355,
+            "modifiedTime": 1561413735234,
+            "changeTime": 1561413735234,
+            "contentHash": "64df657cf2ca5467336779d36f3e631fb0fd6fe9"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemExtractor/pfSchemExtractor.js",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemExtractor/pfSchemExtractor.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 359,
-            "modifiedTime": 1561413191479,
+            "modifiedTime": 1561413596134,
             "changeTime": 1561413191479,
-            "contentHash": "1d0c2c7611243ef036abedf5897f75b883dd8277"
+            "contentHash": "1d0c2c7611243ef036abedf5897f75b883dd8277",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -3380,14 +3380,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractForm/pfSchemaExtractForm.html",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractForm/pfSchemaExtractForm.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 663,
             "modifiedTime": 1561412933552,
             "changeTime": 1561412933552,
-            "contentHash": "e85ffcf062759ce1b601bda9e5f621642f7b44ac"
+            "contentHash": "e85ffcf062759ce1b601bda9e5f621642f7b44ac",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -3419,53 +3419,53 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractorFLS",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractorFLS",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 160,
             "modifiedTime": 1561412555701,
             "changeTime": 1561412555701,
-            "contentHash": "2954ace0870134ebbf9a414375de09f3919c9c48"
+            "contentHash": "2954ace0870134ebbf9a414375de09f3919c9c48",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractorFLS/pfSchemaExtractorFLS.html",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractorFLS/pfSchemaExtractorFLS.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 228,
             "modifiedTime": 1561413125156,
             "changeTime": 1561413125156,
-            "contentHash": "1e37a85e0bca3b752382c0c6221bd66a4f772e81"
+            "contentHash": "1e37a85e0bca3b752382c0c6221bd66a4f772e81",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractorFLS/pfSchemaExtractorFLS.js",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractorFLS/pfSchemaExtractorFLS.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 593,
             "modifiedTime": 1561412889091,
             "changeTime": 1561412889091,
-            "contentHash": "dbfb7d8d0590c1bd1a917056fc23b491024a2e38"
+            "contentHash": "dbfb7d8d0590c1bd1a917056fc23b491024a2e38",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractorFLS/pfSchemaExtractorFLS.js-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractorFLS/pfSchemaExtractorFLS.js-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 235,
             "modifiedTime": 1561412555700,
             "changeTime": 1561412555700,
-            "contentHash": "93ddb6be58f15a4b68d4490c1e821485fc4cec13"
+            "contentHash": "93ddb6be58f15a4b68d4490c1e821485fc4cec13",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]

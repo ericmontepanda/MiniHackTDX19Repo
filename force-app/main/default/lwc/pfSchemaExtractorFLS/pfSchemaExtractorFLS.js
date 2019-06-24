@@ -1,4 +1,8 @@
-import { LightningElement, track, api} from 'lwc';
+import {
+    LightningElement,
+    track,
+    api
+} from 'lwc';
 
 export default class PfSchemaExtractorFLS extends LightningElement {
     @api fieldList = [];
@@ -22,6 +26,6 @@ export default class PfSchemaExtractorFLS extends LightningElement {
         }
 
     ];
-   
+
 
 }

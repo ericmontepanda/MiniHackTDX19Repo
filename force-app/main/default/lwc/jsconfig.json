@@ -68,6 +68,9 @@
             ],
             "c/pfSchemaExtractorFLS": [
                 "pfSchemaExtractorFLS/pfSchemaExtractorFLS.js"
+            ],
+            "c/pfSchemaExtractorFls": [
+                "pfSchemaExtractorFls/pfSchemaExtractorFls.js"
             ]
         }
     },
