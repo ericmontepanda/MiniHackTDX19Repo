@@ -3345,23 +3345,23 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemExtractor/pfSchemExtractor.html",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 325,
-            "modifiedTime": 1561414648794,
-            "changeTime": 1561414648794,
-            "contentHash": "f1fbef1fee6ea4d5e5eff0530ed61894263fedd6"
+            "size": 300,
+            "modifiedTime": 1561414311462,
+            "changeTime": 1561414311462,
+            "contentHash": "03371f269f41be562efa0206f9d834bd4b693f85"
         }
     ],
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemExtractor/pfSchemExtractor.js",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemExtractor/pfSchemExtractor.js",
             "isDirectory": false,
+            "size": 359,
+            "modifiedTime": 1561413596134,
+            "changeTime": 1561413191479,
+            "contentHash": "1d0c2c7611243ef036abedf5897f75b883dd8277",
             "isMetadataFile": false,
-            "size": 504,
-            "modifiedTime": 1561414779640,
-            "changeTime": 1561414779640,
-            "contentHash": "52673985e1e14b3bf9a097013e8955d25e8c1475"
+            "state": "u"
         }
     ],
     [
@@ -3393,14 +3393,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractForm/pfSchemaExtractForm.js",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfSchemaExtractForm/pfSchemaExtractForm.js",
             "isDirectory": false,
+            "size": 1213,
+            "modifiedTime": 1561410488184,
+            "changeTime": 1561410488184,
+            "contentHash": "82f30ad080de90def0e331d84fcd750922af70f4",
             "isMetadataFile": false,
-            "size": 1271,
-            "modifiedTime": 1561414787869,
-            "changeTime": 1561414787869,
-            "contentHash": "51a2634587548ed1d9147d320acb5afff746bd79"
+            "state": "u"
         }
     ],
     [

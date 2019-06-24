@@ -14,5 +14,9 @@ export default class PfSchemExtractor extends LightningElement {
     })
     fields;
 
+    objSelected(event) {
+        console.log('stringify '+JSON.stringify(event));
+        this.objectAPIName = event.detail.objectAPIName;
+    }
 
 }

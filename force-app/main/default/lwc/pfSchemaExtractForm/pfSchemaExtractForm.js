@@ -1,4 +1,4 @@
-import { LightningElement, track, wire, api } from 'lwc';
+import { LightningElement, track, wire } from 'lwc';
 import getSFDCObj from '@salesforce/apex/PF_Schema_Extractor_LWC.getSFDCObjectList';
 
 export default class PfSchemaExtractForm extends LightningElement {
@@ -42,6 +42,7 @@ export default class PfSchemaExtractForm extends LightningElement {
                 objectAPIName: this.selectedObj
             }
         });
+        console.log('what is my event ' + this.objectAPIName);
         this.dispatchEvent(selectedEvent);
     }
 
