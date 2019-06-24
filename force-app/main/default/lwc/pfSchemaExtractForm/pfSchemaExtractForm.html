@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-m-bottom_small">
+        <lightning-card title="Filter Object" icon-name="utility:search">
+            <lightning-layout horizontal-align="center">
+                <lightning-layout-item padding="around-small" size="4">
+                    <lightning-combobox name="Object" label="Select Objects" variant="label-hidden"
+                        options={objectName} value={selectedObj} placeholder="Select an Object"
+                        onchange={onObjectChange}>>
+                    </lightning-combobox>
+                </lightning-layout-item>
+            </lightning-layout>
+        </lightning-card>
+    </div>
+</template>

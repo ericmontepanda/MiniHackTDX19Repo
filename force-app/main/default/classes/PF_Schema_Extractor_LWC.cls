@@ -6,25 +6,12 @@ public with sharing class PF_Schema_Extractor_LWC {
 * Created By : Eric Montelibano
 * Last Modified Date: 09/21/2016
 * ****************************************/
-    public String val {get;set;}
-    public string objName {get;set;}
-    
-    public List<SelectOption> getName()
-    {
-        List<Schema.SObjectType> gd = Schema.getGlobalDescribe().Values();     
-        List<SelectOption> options = new List<SelectOption>();
-        options.add(new SelectOption('', 'Select Object'));
-        for(Schema.SObjectType f : ProcessInstance.TargetObjectId.getDescribe().getReferenceTo())
-        {
-            options.add(new SelectOption(f.getDescribe().getName(),f.getDescribe().getName()));
-        }
-        return options;
-    }
-    
-    public void objField(){
-        FieldResultList = new List <FieldResults>();
-        system.debug('object name??? ' +val);
-        SObjectType objectType = Schema.getGlobalDescribe().get(val);
+    @AuraEnabled (cacheable=true)
+    public static list <FieldResults> getObjFLS(string obj){
+        if(!String.isBlank(obj)) {
+        List <FieldResults> fr = new List <FieldResults>();
+        system.debug('object name??? ' +obj);
+        SObjectType objectType = Schema.getGlobalDescribe().get(obj);
         Map<String,Schema.SObjectField> mfields = objectType.getDescribe().fields.getMap();
         system.debug(mfields);
         
@@ -68,22 +55,53 @@ public with sharing class PF_Schema_Extractor_LWC {
             Schema.DisplayType FldType = fieldVal.getDescribe().getType();
             
             system.debug(fieldVal.getDescribe());
-            FieldResultList.add(f);
+            fr.add(f);
             
+        }
+            return fr;
+        } else {
+            return null;
         }
     }
     
-    public list <FieldResults> FieldResultList {get;set;}
+    //public list <FieldResults> FieldResultList {get;set;}
     
     public class FieldResults{
+        @AuraEnabled
         public String LabelName {get;set;}
+        @AuraEnabled
         public string APIName {get;set;}
+        @AuraEnabled
         public string FieldType {get;set;}
+        @AuraEnabled
         public string RelationshipName {get;set;}
+        @AuraEnabled
         public integer fieldlength {get;set;}
+        @AuraEnabled
         public string inlineHelpText {get;set;}
+        @AuraEnabled
         public string required {get;set;}
+        @AuraEnabled
         public string isCustom {get;set;}
+    }
+
+     /* 
+    Method Name: ret list of all Objects
+    Description: Retrieve a list of all Custom Objects in the Org
+    */
+    @AuraEnabled (cacheable=true)
+    public static List<objList> getSFDCObjectList()
+    {
+        List<Schema.SObjectType> gd = Schema.getGlobalDescribe().Values();     
+        List<objList> objL = new List<objList>();
+        for(Schema.SObjectType f : ProcessInstance.TargetObjectId.getDescribe().getReferenceTo())
+        {
+            objList o = new objList();
+            o.LabelName = f.getDescribe().getName();
+            o.APIName = f.getDescribe().getName();
+            objL.add(o);
+        }
+        return objL;
     }
 
     /* 
@@ -117,5 +135,12 @@ public with sharing class PF_Schema_Extractor_LWC {
         public string APIName {get;set;}
         @AuraEnabled
         public boolean isCustomObject{get;set;}
+    }
+
+     public class objList{
+        @AuraEnabled
+        public String LabelName {get;set;}
+        @AuraEnabled
+        public string APIName {get;set;}
     }
 }

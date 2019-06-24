@@ -58,6 +58,15 @@
             ],
             "c/pf_Custom_Object_LWC": [
                 "../pf_Custom_Object_LWC/pf_Custom_Object_LWC.js"
+            ],
+            "c/pfSchemExtractor": [
+                "../pfSchemExtractor/pfSchemExtractor.js"
+            ],
+            "c/pfSchemaExtractForm": [
+                "../pfSchemaExtractForm/pfSchemaExtractForm.js"
+            ],
+            "c/pfSchemaExtractorFLS": [
+                "../pfSchemaExtractorFLS/pfSchemaExtractorFLS.js"
             ]
         },
         "experimentalDecorators": true
