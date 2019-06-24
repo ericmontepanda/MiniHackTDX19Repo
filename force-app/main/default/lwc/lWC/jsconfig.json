@@ -2,6 +2,21 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
+            "c/data": [
+                "../../../../LWC-Basics-Bike-Selector-Trailhead/data/data.js"
+            ],
+            "c/detail": [
+                "../../../../LWC-Basics-Bike-Selector-Trailhead/detail/detail.js"
+            ],
+            "c/list": [
+                "../../../../LWC-Basics-Bike-Selector-Trailhead/list/list.js"
+            ],
+            "c/selector": [
+                "../../../../LWC-Basics-Bike-Selector-Trailhead/selector/selector.js"
+            ],
+            "c/tile": [
+                "../../../../LWC-Basics-Bike-Selector-Trailhead/tile/tile.js"
+            ],
             "c/carouselLWC": [
                 "../carouselLWC/carouselLWC.js"
             ],
@@ -10,6 +25,15 @@
             ],
             "c/lWC": [
                 "../lWC/lWC.js"
+            ],
+            "c/productList": [
+                "../productList/productList.js"
+            ],
+            "c/products": [
+                "../products/products.js"
+            ],
+            "c/pubsub": [
+                "../pubsub/pubsub.js"
             ],
             "c/recentAccountChild": [
                 "../recentAccountChild/recentAccountChild.js"
@@ -26,29 +50,14 @@
             "c/wordcloud": [
                 "../wordcloud/wordcloud.js"
             ],
-            "c/productList": [
-                "../productList/productList.js"
+            "c/PF_Custom_Object_LWC": [
+                "../PF_Custom_Object_LWC/PF_Custom_Object_LWC.js"
             ],
-            "c/products": [
-                "../products/products.js"
+            "c/pF_Custom_Object_LWC": [
+                "../pF_Custom_Object_LWC/pF_Custom_Object_LWC.js"
             ],
-            "c/pubsub": [
-                "../pubsub/pubsub.js"
-            ],
-            "c/selector": [
-                "../../../../../LWC-Basics-Bike-Selector-Trailhead/selector/selector.js"
-            ],
-            "c/tile": [
-                "../../../../../LWC-Basics-Bike-Selector-Trailhead/tile/tile.js"
-            ],
-            "c/detail": [
-                "../../../../../LWC-Basics-Bike-Selector-Trailhead/detail/detail.js"
-            ],
-            "c/list": [
-                "../../../../../LWC-Basics-Bike-Selector-Trailhead/list/list.js"
-            ],
-            "c/data": [
-                "../../../../../LWC-Basics-Bike-Selector-Trailhead/data/data.js"
+            "c/pf_Custom_Object_LWC": [
+                "../pf_Custom_Object_LWC/pf_Custom_Object_LWC.js"
             ]
         },
         "experimentalDecorators": true

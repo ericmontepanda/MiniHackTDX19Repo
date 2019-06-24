@@ -1,0 +1,19 @@
+<template>
+    <div>
+        <lightning-datatable key-field="id" data={data} columns={columns} show-row-number-column hide-checkbox-column
+        sorted-by={sortedBy} sorted-direction={sortedDirection}
+        onsort={updateColumnSorting}>
+        </lightning-datatable>
+    </div>
+
+    <!--<lightning-card title="OBJECTS ">
+       <template for:each={objList.data} for:item="ob">
+            <p class="slds-p-horizontal_small" key={ob.APIName}>{ob.LabelName}</p>
+        </template>
+    </lightning-card>-->
+</template>
+
+<!---<lightning-datatable title="MY ORDERS" data={data} columns={columns} key-field="SalesDocument"
+    onsort={updateColumnSorting} sorted-by={sortedBy} sorted-direction={sortedDirection} onrowaction={handlePdfAction}
+    hide-checkbox-column>
+</lightning-datatable>-->
