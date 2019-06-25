@@ -24,7 +24,7 @@ export default class PfUserStats extends LightningElement {
     @track bgColor;
     config;
 
-    chart;
+    @track chart;
     chartjsInitialized = false;
 
 
@@ -77,14 +77,20 @@ export default class PfUserStats extends LightningElement {
         }
     }
 
-    random_rgba() {
-        var o = Math.round,
-            r = Math.random,
-            s = 255;
-        return 'rgba(' + o(r() * s) + ',' + o(r() * s) + ',' + o(r() * s) + ',' + r().toFixed(1) + ')';
+    getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
-    connectedCallback(){
+    random_rgba() {
+        var r = this.getRandomInt(0, 255);
+        var g = this.getRandomInt(0, 255);
+        var b = this.getRandomInt(0, 255);
+
+        return 'rgb(' + r + "," + g + "," + b + ')';
+    }
+
+
+    connectedCallback() {
         loadScript(this, chartjs)
             .catch(error => {
                 this.dispatchEvent(
@@ -97,26 +103,50 @@ export default class PfUserStats extends LightningElement {
             });
     }
 
-    startChartJS(){
+    startChartJS() {
         this.config = {
             type: 'doughnut',
             data: {
                 datasets: [{
                     data: this.profCount,
                     backgroundColor: this.bgColor,
-                    label: 'Active Users by Profile'
+                    hoverBackgroundColor: this.bgColor,
+                    hoverBorderWidth: 5,
+                    id: this.profId
                 }],
                 labels: this.profName
             },
             options: {
                 responsive: true,
                 legend: {
-                    position: 'right'
+                    position: 'top'
                 },
                 animation: {
                     animateScale: true,
                     animateRotate: true
+                },
+                //events: ['mousemove', 'mouseout', 'click', 'touchstart', 'touchmove'],
+                tooltips: {
+                    callbacks: {
+                        // this callback is used to create the tooltip label
+                        console.log('STRING' + JSON.stringify(data));
+                        label: function (tooltipItem, data) {
+                           
+
+                            
+                            //console.log('data... ' + data.id[tooltipItem.index]);
+                            // get the data label and data value to display
+                            // convert the data value to local string so it uses a comma seperated number
+                            var dataLabel = data.labels[tooltipItem.index];
+                            //var value = ': ' + data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index].toLocaleString();
+
+                            
+                            // return the text to display on the tooltip
+                            return dataLabel;
+                        }
+                    }
                 }
+
             }
         };
 
@@ -124,6 +154,7 @@ export default class PfUserStats extends LightningElement {
             .querySelector('canvas.donut')
             .getContext('2d');
         this.chart = new window.Chart(ctx, this.config);
+        
     }
     renderedCallback() {
         if (this.chartjsInitialized) {
