@@ -422,14 +422,13 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes",
             "isDirectory": true,
-            "size": 384,
-            "modifiedTime": 1561426613610,
-            "changeTime": 1561426613610,
-            "contentHash": "17f7df0215f6e52029527844b70dad88269215f1",
+            "size": 448,
+            "modifiedTime": 1561471015906,
+            "changeTime": 1561471015906,
+            "contentHash": "6f85fde06f918fc2a08f0a4d9ec9b6e4c91cd56b",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -720,14 +719,13 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc",
             "isDirectory": true,
-            "size": 768,
-            "modifiedTime": 1561431310783,
-            "changeTime": 1561431310783,
-            "contentHash": "032a0a6eb9705a6a0fe826f34fae17a4cd61d801",
+            "size": 800,
+            "modifiedTime": 1561470426712,
+            "changeTime": 1561470426712,
+            "contentHash": "eefc31f4fba9761ba5a893e03b8adb9652ff4e39",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -1815,14 +1813,13 @@
         {
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/redoAccounts/redoAccounts.html",
             "isDirectory": false,
-            "size": 360,
-            "modifiedTime": 1560723684667,
-            "changeTime": 1560723684667,
-            "contentHash": "47da866fc7668dda5414eb1626df35d00de6944d",
+            "size": 361,
+            "modifiedTime": 1561476796185,
+            "changeTime": 1561476796185,
+            "contentHash": "e9ab37d6ac877df4e748602862d31f17691df627",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -3919,14 +3916,14 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/applications",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/applications",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1561469855795,
             "changeTime": 1561469855795,
-            "contentHash": "7da5bdb578b0a2d094a2253bcd7a9cc981959aec"
+            "contentHash": "7da5bdb578b0a2d094a2253bcd7a9cc981959aec",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -3958,14 +3955,92 @@
     [
         "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/applications/Admin_Workbench.app-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/applications/Admin_Workbench.app-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 1133,
             "modifiedTime": 1561469855794,
             "changeTime": 1561469855794,
-            "contentHash": "fc9257bb340427c791cbf0818cc481b5b9333c4f"
+            "contentHash": "fc9257bb340427c791cbf0818cc481b5b9333c4f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfUserStats",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfUserStats",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1561470426713,
+            "changeTime": 1561470426713,
+            "contentHash": "4c1cfbf510889da7702139d64c8ea1e64b5a8964",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfUserStats/pfUserStats.html",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfUserStats/pfUserStats.html",
+            "isDirectory": false,
+            "size": 1182,
+            "modifiedTime": 1561476876010,
+            "changeTime": 1561476876010,
+            "contentHash": "c9037a86456fdf56c502c6017074a6b8dadb06cf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfUserStats/pfUserStats.js",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfUserStats/pfUserStats.js",
+            "isDirectory": false,
+            "size": 1104,
+            "modifiedTime": 1561476317392,
+            "changeTime": 1561476317392,
+            "contentHash": "3f3d54c9fc1894da314a8af6aa28ce03210ce7af",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfUserStats/pfUserStats.js-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfUserStats/pfUserStats.js-meta.xml",
+            "isDirectory": false,
+            "size": 390,
+            "modifiedTime": 1561470559941,
+            "changeTime": 1561470559941,
+            "contentHash": "97b1028c0a3d652e5b213f529ee59fb7de9298dc",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/PF_User_Statistics.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/PF_User_Statistics.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1573,
+            "modifiedTime": 1561477028279,
+            "changeTime": 1561477028279,
+            "contentHash": "535bdea2a6680080421e99324b05a4df921a74bd"
+        }
+    ],
+    [
+        "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/PF_User_Statistics.cls-meta.xml",
+        {
+            "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/classes/PF_User_Statistics.cls-meta.xml",
+            "isDirectory": false,
+            "size": 196,
+            "modifiedTime": 1561471015906,
+            "changeTime": 1561471015906,
+            "contentHash": "d180dd8120709ced2dda3f7e8deb31245f730732",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]
