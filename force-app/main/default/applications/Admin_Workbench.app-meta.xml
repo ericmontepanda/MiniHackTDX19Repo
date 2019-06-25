@@ -18,7 +18,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>Schema Extractor</label>
+    <label>Admin Workbench</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>Object_FLS</tabs>
