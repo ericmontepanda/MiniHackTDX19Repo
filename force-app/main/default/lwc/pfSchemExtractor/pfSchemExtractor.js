@@ -8,6 +8,7 @@ import getObjFLS from '@salesforce/apex/PF_Schema_Extractor_LWC.getObjFLS';
 
 export default class PfSchemExtractor extends LightningElement {
     @track objectAPIName = "";
+    
     //import data
     @wire(getObjFLS, {
         obj: '$objectAPIName'

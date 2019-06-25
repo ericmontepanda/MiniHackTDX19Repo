@@ -10,7 +10,6 @@ export default class PF_Custom_Object_LWC extends LightningElement {
     @api totalNumberOfRows;
     @track sortedDirection = 'asc';
     @track sortedBy = 'LabelName';
-    @track sortData;
     @track columns = [{
             label: 'Label',
             fieldName: 'LabelName',

@@ -21,32 +21,34 @@ public with sharing class PF_Schema_Extractor_LWC {
             
             FieldResults f = new FieldResults();
             f.labelName = fieldVal.getDescribe().getLabel();
-            f.APIName = fieldVal.getDescribe().getName();
+            f.apiName = fieldVal.getDescribe().getName();
             if(string.valueof(fieldVal.getDescribe().getType()) == 'REFERENCE'){
-                f.FieldType = string.valueof(fieldVal.getDescribe().getType())+string.valueOf(fieldVal.getDescribe().getReferenceTo());
+                f.fieldType = string.valueof(fieldVal.getDescribe().getType())+string.valueOf(fieldVal.getDescribe().getReferenceTo());
             } else {
-                f.FieldType = string.valueof(fieldVal.getDescribe().getType());
+                f.fieldType = string.valueof(fieldVal.getDescribe().getType());
             }
             
-            f.RelationshipName = fieldVal.getDescribe().getRelationshipName();
+            f.relationshipName = fieldVal.getDescribe().getRelationshipName();
             f.fieldLength =  fieldVal.getDescribe().getLength();
             f.inlineHelpText = fieldVal.getDescribe().getInlineHelpText();
             
             if(string.valueof(fieldVal.getDescribe().getType()) == 'BOOLEAN'){
-                f.required = 'N/A';
+                f.requiredField = 'N/A';
             } else{
                 if(fieldVal.getDescribe().isNillable() == true) {
-                    f.required = 'No';
+                    f.requiredField = 'No';
                 } else {
-                    f.required = 'Yes';
+                    f.requiredField = 'Yes';
                 }
             }
             
             if(fieldVal.getDescribe().isCustom() == true){
-                f.isCustom = 'Yes';
+                f.customField = 'Yes';
             } else {
-                f.isCustom = 'No';
+                f.customField = 'No';
             }
+            f.editableField = fieldVal.getDescribe().isUpdateable();
+            f.externalField = fieldVal.getDescribe().isExternalId();
            
             
             
@@ -68,21 +70,25 @@ public with sharing class PF_Schema_Extractor_LWC {
     
     public class FieldResults{
         @AuraEnabled
-        public String LabelName {get;set;}
+        public String labelName {get;set;}
         @AuraEnabled
-        public string APIName {get;set;}
+        public string apiName {get;set;}
         @AuraEnabled
-        public string FieldType {get;set;}
+        public string fieldType {get;set;}
         @AuraEnabled
-        public string RelationshipName {get;set;}
+        public string relationshipName {get;set;}
         @AuraEnabled
-        public integer fieldlength {get;set;}
+        public integer fieldLength {get;set;}
         @AuraEnabled
         public string inlineHelpText {get;set;}
         @AuraEnabled
-        public string required {get;set;}
+        public string requiredField {get;set;}
         @AuraEnabled
-        public string isCustom {get;set;}
+        public string customField {get;set;}
+        @AuraEnabled
+        public Boolean editableField {get;set;}
+        @AuraEnabled
+        public Boolean externalField {get;set;}
     }
 
      /* 

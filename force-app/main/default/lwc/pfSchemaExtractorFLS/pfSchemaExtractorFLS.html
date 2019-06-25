@@ -1,7 +1,8 @@
 <template>
     <div class="slds-box">
         <lightning-datatable key-field="id" data={fieldList} columns={columns} show-row-number-column
-            hide-checkbox-column>
+            hide-checkbox-column sorted-by={sortedBy} sorted-direction={sortedDirection}
+            onsort={updateColumnSorting} >
         </lightning-datatable>
     </div>
 </template>
