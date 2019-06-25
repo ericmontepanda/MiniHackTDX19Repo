@@ -70,6 +70,21 @@
             ],
             "c/pfSchemaExtractorFls": [
                 "../pfSchemaExtractorFls/pfSchemaExtractorFls.js"
+            ],
+            "c/pfPermissions": [
+                "../pfPermissions/pfPermissions.js"
+            ],
+            "c/pfProfile": [
+                "../pfProfile/pfProfile.js"
+            ],
+            "c/pfPermSet": [
+                "../pfPermSet/pfPermSet.js"
+            ],
+            "c/pfRecordType": [
+                "../pfRecordType/pfRecordType.js"
+            ],
+            "c/pfCustomObjects": [
+                "../pfCustomObjects/pfCustomObjects.js"
             ]
         },
         "experimentalDecorators": true

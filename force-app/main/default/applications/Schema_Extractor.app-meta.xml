@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Admin_Workbench</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0F80E7</headerColor>
+        <logo>icons8wrench64_2</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Schema Extractor Applications to leverage by Admin and Developers</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Schema Extractor</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Object_FLS</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Schema_Extractor_UtilityBar</utilityBar>
+</CustomApplication>

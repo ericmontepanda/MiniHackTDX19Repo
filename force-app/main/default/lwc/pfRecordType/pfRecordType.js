@@ -4,72 +4,49 @@ import {
     api
 } from 'lwc';
 
-export default class PfSchemaExtractorFLS extends LightningElement {
-    @api fieldList = [];
-    @track sortedBy = 'labelName';
+export default class PfProfile extends LightningElement {
+    @api rtList = [];
+    @track sortedBy = 'Name';
     @track sortedDirection = 'asc';
-    @track columns = [
-        {
-            label: 'Label',
-            fieldName: 'labelName',
+    @track columns = [{
+            label: 'Id',
+            fieldName: 'Id',
             type: 'text',
             sortable: true
-        },
-        {
-            label: 'API Name',
-            fieldName: 'apiName',
+        }, {
+            label: 'Name',
+            fieldName: 'Name',
             type: 'text',
             sortable: true
-        },
-        {
-            label: 'Type',
-            fieldName: 'fieldType',
+        }, {
+            label: 'Developer Name',
+            fieldName: 'DeveloperName',
             type: 'text',
             sortable: true
-        },
-        {
-            label: 'Reference',
-            fieldName: 'relationshipName',
+        }, {
+            label: 'Developer Name',
+            fieldName: 'DeveloperName',
             type: 'text',
             sortable: true
-        },
-        {
-            label: 'Field Length',
-            fieldName: 'fieldLength',
-            type: 'number',
-            sortable: true
-        },
-        {
-            label: 'Help Text',
-            fieldName: 'inlineHelpText',
+        }, {
+            label: 'Description',
+            fieldName: 'Description',
             type: 'text',
             sortable: true
-        },
-        {
-            label: 'Required',
-            fieldName: 'requiredField',
+        }, {
+            label: 'Object',
+            fieldName: 'SobjectType',
             type: 'text',
             sortable: true
-        },
-        {
-            label: 'Custom Field',
-            fieldName: 'customField',
+        }, {
+            label: 'Active',
+            fieldName: 'IsActive',
             type: 'text',
-            sortable: true
-        },
-        {
-            label: 'Editable',
-            fieldName: 'editableField',
-            type: 'boolean',
-            sortable: true
-        },
-        {
-            label: 'External Field',
-            fieldName: 'externalField',
-            type: 'boolean',
             sortable: true
         }
+
     ];
+
 
     updateColumnSorting(event) {
         let fieldName = event.detail.fieldName;
@@ -82,11 +59,11 @@ export default class PfSchemaExtractorFLS extends LightningElement {
 
         let reverse = sortDirection !== 'asc';
 
-        let data_clone = JSON.parse(JSON.stringify(this.fieldList));
+        let data_clone = JSON.parse(JSON.stringify(this.rtList));
 
         console.log('BEFORE data_clone:' + JSON.stringify(data_clone));
 
-        this.fieldList = data_clone.sort(this.sortBy(fieldName, reverse));
+        this.rtList = data_clone.sort(this.sortBy(fieldName, reverse));
 
         console.log('AFTER data_clone:' + JSON.stringify(data_clone));
 
@@ -110,6 +87,5 @@ export default class PfSchemaExtractorFLS extends LightningElement {
             return (A < B ? -1 : (A > B ? 1 : 0)) * [1, -1][+!!reverse];
         }
     }
-
 
 }

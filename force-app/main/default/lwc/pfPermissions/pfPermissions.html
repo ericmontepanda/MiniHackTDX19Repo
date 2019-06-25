@@ -1,0 +1,19 @@
+<template>
+    <div class="slds-box">
+        <lightning-tabset>
+            <lightning-tab label="Custom Object">
+                <c-pf-custom-objects></c-pf-custom-objects>
+
+            </lightning-tab>
+            <lightning-tab label="Profiles">
+                <c-pf-profile profile-list={profiles.data}></c-pf-profile>
+            </lightning-tab>
+            <lightning-tab label="Permission Sets">
+                <c-pf-perm-set permset-list={permSet.data}></c-pf-perm-set>
+            </lightning-tab>
+            <lightning-tab label="Record Types">
+                <c-pf-record-type rt-list={recordTypes.data}></c-pf-record-type>
+            </lightning-tab>
+        </lightning-tabset>
+    </div>
+</template>
