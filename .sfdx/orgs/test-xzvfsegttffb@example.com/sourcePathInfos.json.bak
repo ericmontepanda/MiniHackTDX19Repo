@@ -3996,10 +3996,10 @@
             "sourcePath": "/Users/emonteliba001/Documents/sfdx/NewProj060919/force-app/main/default/lwc/pfUserStats/pfUserStats.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 6630,
-            "modifiedTime": 1561752620587,
-            "changeTime": 1561752620587,
-            "contentHash": "153a3b290639184432b2a7296607ba279ba56ca7"
+            "size": 6613,
+            "modifiedTime": 1561752569801,
+            "changeTime": 1561752569801,
+            "contentHash": "6e956a5248a83b993e4feb9bae6d596165b7459b"
         }
     ],
     [

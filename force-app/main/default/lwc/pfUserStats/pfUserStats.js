@@ -22,10 +22,14 @@ export default class PfUserStats extends LightningElement {
     @track profId;
     @track profCount;
     @track bgColor;
-    config;
 
+    @track config;
     @track chart;
     chartjsInitialized = false;
+
+    @track selectedProf;
+    @track selectedProfId;
+    @track selectedProfVal;
 
 
     @wire(getActiveUsers) actUser({
@@ -125,28 +129,25 @@ export default class PfUserStats extends LightningElement {
                     animateScale: true,
                     animateRotate: true
                 },
-                //events: ['mousemove', 'mouseout', 'click', 'touchstart', 'touchmove'],
-                tooltips: {
-                    callbacks: {
-                        // this callback is used to create the tooltip label
-                        console.log('STRING' + JSON.stringify(data));
-                        label: function (tooltipItem, data) {
-                           
+                events: ['mousemove', 'mouseout', 'click', 'touchstart', 'touchmove'],
+                onClick: function (evt) {
 
-                            
-                            //console.log('data... ' + data.id[tooltipItem.index]);
-                            // get the data label and data value to display
-                            // convert the data value to local string so it uses a comma seperated number
-                            var dataLabel = data.labels[tooltipItem.index];
-                            //var value = ': ' + data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index].toLocaleString();
+                    var activePoints = this.chart.getElementsAtEvent(evt);
+                    if (activePoints[0]) {
+                        var chartData = activePoints[0]['_chart'].config.data;
+                        var idx = activePoints[0]['_index'];
 
-                            
-                            // return the text to display on the tooltip
-                            return dataLabel;
-                        }
+                        var label = chartData.labels[idx];
+                        var value = chartData.datasets[0].data[idx];
+                        var profId = chartData.datasets[0].id[idx];
+                        console.log('profid... ', profId);
+
+                        var url = "http://example.com/?label=" + label + "&value=" + value + "id " + profId;
+                        console.log(url);
+                        alert(url);
                     }
                 }
-
+                
             }
         };
 
@@ -154,24 +155,6 @@ export default class PfUserStats extends LightningElement {
             .querySelector('canvas.donut')
             .getContext('2d');
         this.chart = new window.Chart(ctx, this.config);
-        
-    }
-    renderedCallback() {
-        if (this.chartjsInitialized) {
-            return;
-        }
-        this.chartjsInitialized = true;
 
-        loadScript(this, chartjs)
-            .then(() => {
-                const ctx = this.template
-                    .querySelector('canvas.donut')
-                    .getContext('2d');
-                this.chart = new window.Chart(ctx, this.config);
-            })
-            .catch(error => {
-                this.error = error;
-            });
     }
-
 }
