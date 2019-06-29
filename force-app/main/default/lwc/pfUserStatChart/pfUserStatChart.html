@@ -15,12 +15,16 @@
                 </div>
             </div>
 
-            <template for:each={userProfiles.data} for:item="pro">
-                <p class="slds-p-horizontal_small" key={pro.profileId}>
-                    {pro.profileId}-{pro.profileName}-{pro.countUsers} </p>
-            </template>
 
+            <div
+                class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-hint-parent slds-m-around_x-small">
+                <span class="slds-form-element__label">{selectedProf}</span>
+                <div class="slds-form-element__control">
+                    <div class="slds-form-element__static">{selectedProfVal}</div>
+                </div>
+            </div>
 
+        
             
         </lightning-card>
 
@@ -29,5 +33,7 @@
                 <canvas class="donut" lwc:dom="manual"></canvas>
             </div>
         </lightning-card>
+
+        
     </div>
 </template>

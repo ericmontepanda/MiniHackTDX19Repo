@@ -86,8 +86,14 @@
             "c/pfCustomObjects": [
                 "../pfCustomObjects/pfCustomObjects.js"
             ],
-            "c/pfUserStats": [
-                "../pfUserStats/pfUserStats.js"
+            "c/pfUserStatContainer": [
+                "../pfUserStatContainer/pfUserStatContainer.js"
+            ],
+            "c/pfUserStatChart": [
+                "../pfUserStatChart/pfUserStatChart.js"
+            ],
+            "c/pfUserStatInfo": [
+                "../pfUserStatInfo/pfUserStatInfo.js"
             ]
         },
         "experimentalDecorators": true

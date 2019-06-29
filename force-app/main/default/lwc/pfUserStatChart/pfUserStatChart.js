@@ -14,7 +14,8 @@ import {
     ShowToastEvent
 } from 'lightning/platformShowToastEvent';
 
-export default class PfUserStats extends LightningElement {
+export default class PfUserStatChart
+extends LightningElement {
     @track countActiveUser;
     @track countActiveAdminUser;
     @track error;
@@ -27,9 +28,9 @@ export default class PfUserStats extends LightningElement {
     @track chart;
     chartjsInitialized = false;
 
-    @track selectedProf;
+    @track selectedProf = 'No Profile Selected';
     @track selectedProfId;
-    @track selectedProfVal;
+    @track selectedProfVal = '';
 
 
     @wire(getActiveUsers) actUser({
@@ -137,17 +138,18 @@ export default class PfUserStats extends LightningElement {
                         var chartData = activePoints[0]['_chart'].config.data;
                         var idx = activePoints[0]['_index'];
 
-                        var label = chartData.labels[idx];
-                        var value = chartData.datasets[0].data[idx];
-                        var profId = chartData.datasets[0].id[idx];
-                        console.log('profid... ', profId);
+                        this.selectedProf = chartData.labels[idx];
+                        this.selectedProfVal = chartData.datasets[0].data[idx];
+                        this.selectedProfId = chartData.datasets[0].id[idx];
+                        var url = "http://example.com/?label=" + this.selectedProf + "&value=" + this.selectedProfVal + "id " + this.selectedProfId;
 
-                        var url = "http://example.com/?label=" + label + "&value=" + value + "id " + profId;
-                        console.log(url);
-                        alert(url);
+                        console.log('itemName is ' + this.selectedProfId);
+                        
                     }
+                    console.log('notify parent..');
+                    this.notifyParent();
                 }
-                
+
             }
         };
 
@@ -155,6 +157,18 @@ export default class PfUserStats extends LightningElement {
             .querySelector('canvas.donut')
             .getContext('2d');
         this.chart = new window.Chart(ctx, this.config);
+    };
 
+    notifyParent() {
+        console.log('notify parent');
+        const selectedEvent = new CustomEvent('selected', {
+            detail: {
+                profileName: this.selectedProf,
+                profileCount: this.selectedProfVal,
+                pofileId: this.selectedId
+            }
+        });
+        this.dispatchEvent(selectedEvent);
     }
+
 }
