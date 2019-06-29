@@ -31,7 +31,7 @@ extends LightningElement {
     @track selectedProf = 'No Profile Selected';
     @track selectedProfId;
     @track selectedProfVal = '';
-
+    
 
     @wire(getActiveUsers) actUser({
         error,
@@ -72,7 +72,7 @@ extends LightningElement {
                 this.profName.push([prof.profileName]);
                 this.profId.push([prof.profileId]);
                 this.profCount.push([prof.countUsers]);
-                console.log('random... ' + this.random_rgba());
+                //console.log('random... ' + this.random_rgba());
                 this.bgColor.push([this.random_rgba()]);
             });
 
@@ -131,8 +131,9 @@ extends LightningElement {
                     animateRotate: true
                 },
                 events: ['mousemove', 'mouseout', 'click', 'touchstart', 'touchmove'],
-                onClick: function (evt) {
-
+                onClick: this.notifyParent
+                /*onClick: chartClickEvent /*function (evt) {
+                    this.notifyParent;
                     var activePoints = this.chart.getElementsAtEvent(evt);
                     if (activePoints[0]) {
                         var chartData = activePoints[0]['_chart'].config.data;
@@ -141,14 +142,14 @@ extends LightningElement {
                         this.selectedProf = chartData.labels[idx];
                         this.selectedProfVal = chartData.datasets[0].data[idx];
                         this.selectedProfId = chartData.datasets[0].id[idx];
-                        var url = "http://example.com/?label=" + this.selectedProf + "&value=" + this.selectedProfVal + "id " + this.selectedProfId;
+                        //var url = "http://example.com/?label=" + this.selectedProf + "&value=" + this.selectedProfVal + "id " + this.selectedProfId;
 
                         console.log('itemName is ' + this.selectedProfId);
-                        
+                        console.log('what is this??? ', this);
+                        return notifyParent();
                     }
-                    console.log('notify parent..');
-                    this.notifyParent();
-                }
+                   
+                }*/
 
             }
         };
@@ -159,15 +160,31 @@ extends LightningElement {
         this.chart = new window.Chart(ctx, this.config);
     };
 
-    notifyParent() {
+    notifyParent(evt) {
         console.log('notify parent');
+
+        var activePoints = this.chart.getElementsAtEvent(evt);
+        if (activePoints[0]) {
+            var chartData = activePoints[0]['_chart'].config.data;
+            var idx = activePoints[0]['_index'];
+
+            this.selectedProf = chartData.labels[idx];
+            this.selectedProfVal = chartData.datasets[0].data[idx];
+            this.selectedProfId = chartData.datasets[0].id[idx];
+            var url = "http://example.com/?label=" + this.selectedProf + "&value=" + this.selectedProfVal + "id " + this.selectedProfId;
+
+            console.log('itemName is ' + this.selectedProfId);
+            console.log('what is this??? ', this);
+            //alert(url);
+        }
         const selectedEvent = new CustomEvent('selected', {
             detail: {
-                profileName: this.selectedProf,
-                profileCount: this.selectedProfVal,
-                pofileId: this.selectedId
+                profileName: chartData.labels[idx],
+                profileCount: chartData.datasets[0].data[idx],
+                pofileId: chartData.datasets[0].id[idx]
             }
         });
+        console.log('selected events... ' +selectedEvent);
         this.dispatchEvent(selectedEvent);
     }
 
