@@ -14,6 +14,14 @@ import {
     ShowToastEvent
 } from 'lightning/platformShowToastEvent';
 
+import {
+    fireEvent
+} from 'c/pubsub';
+
+import {
+    CurrentPageReference
+} from 'lightning/navigation';
+
 export default class PfUserStatChart
 extends LightningElement {
     @track countActiveUser;
@@ -31,8 +39,8 @@ extends LightningElement {
     @track selectedProf = 'No Profile Selected';
     @track selectedProfId;
     @track selectedProfVal = '';
-    
 
+    @wire(CurrentPageReference) pageRef;
     @wire(getActiveUsers) actUser({
         error,
         data
@@ -67,6 +75,9 @@ extends LightningElement {
         this.profId = [];
         this.profCount = [];
         this.bgColor = [];
+
+        loadScript(this, chartjs);
+
         if (data) {
             data.forEach(prof => {
                 this.profName.push([prof.profileName]);
@@ -95,7 +106,7 @@ extends LightningElement {
     }
 
 
-    connectedCallback() {
+    /*connectedCallback() {
         loadScript(this, chartjs)
             .catch(error => {
                 this.dispatchEvent(
@@ -106,7 +117,7 @@ extends LightningElement {
                     }),
                 );
             });
-    }
+    }*/
 
     startChartJS() {
         this.config = {
@@ -132,25 +143,6 @@ extends LightningElement {
                 },
                 events: ['mousemove', 'mouseout', 'click', 'touchstart', 'touchmove'],
                 onClick: this.notifyParent
-                /*onClick: chartClickEvent /*function (evt) {
-                    this.notifyParent;
-                    var activePoints = this.chart.getElementsAtEvent(evt);
-                    if (activePoints[0]) {
-                        var chartData = activePoints[0]['_chart'].config.data;
-                        var idx = activePoints[0]['_index'];
-
-                        this.selectedProf = chartData.labels[idx];
-                        this.selectedProfVal = chartData.datasets[0].data[idx];
-                        this.selectedProfId = chartData.datasets[0].id[idx];
-                        //var url = "http://example.com/?label=" + this.selectedProf + "&value=" + this.selectedProfVal + "id " + this.selectedProfId;
-
-                        console.log('itemName is ' + this.selectedProfId);
-                        console.log('what is this??? ', this);
-                        return notifyParent();
-                    }
-                   
-                }*/
-
             }
         };
 
@@ -158,12 +150,17 @@ extends LightningElement {
             .querySelector('canvas.donut')
             .getContext('2d');
         this.chart = new window.Chart(ctx, this.config);
-    };
+
+        //ctx.addEventListener('selectprofile', this.callEvent());
+
+    }
 
     notifyParent(evt) {
-        console.log('notify parent');
+        
+        console.log('notify parent', this.chart);
 
         var activePoints = this.chart.getElementsAtEvent(evt);
+        console.log('evemmts// ', activePoints);
         if (activePoints[0]) {
             var chartData = activePoints[0]['_chart'].config.data;
             var idx = activePoints[0]['_index'];
@@ -177,15 +174,46 @@ extends LightningElement {
             console.log('what is this??? ', this);
             //alert(url);
         }
-        const selectedEvent = new CustomEvent('selected', {
-            detail: {
-                profileName: chartData.labels[idx],
-                profileCount: chartData.datasets[0].data[idx],
-                pofileId: chartData.datasets[0].id[idx]
-            }
+
+        var detailjson = {};
+        console.log('what is my detail ', detailjson);
+
+        detailjson = {
+            profileName: chartData.labels[idx],
+            profileCount: chartData.datasets[0].data[idx],
+            pofileId: chartData.datasets[0].id[idx]
+        };
+        console.log('what is my detail2 ', detailjson);
+        const selectedEvent = new CustomEvent('selectprofile', {
+            detail: detailjson
         });
-        console.log('selected events... ' +selectedEvent);
-        this.dispatchEvent(selectedEvent);
+        console.log('what is my event... ', selectedEvent);
+        alert('dispatching... ' + selectedEvent.detail.profileName);
+        console.log('this.page reg ', this.detailjson);
+        //debugger;
+
+        
+        dispatchEvent(selectedEvent);
+        console.log('ready to fire ');
+        fireEvent('profileSelected', detailjson);
+        
+        console.log('dispatching '
+            + fireEvent('profileSelected', detailjson));
+        
+        
+    }
+
+    callEvent() {
+        console.log('calling event');
+        //this.dispatchEvent(this.selectedEvent);
+    }
+
+    profileSelected(event) {
+        debugger;
+        alert('hello worlds' + this.event);
+        debugger;
+        //console.log('stringify ' + JSON.stringify(event));
+        //this.objectAPIName = event.detail.objectAPIName;
     }
 
 }

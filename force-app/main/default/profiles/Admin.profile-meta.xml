@@ -571,11 +571,11 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Park_Sightings__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Park__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Product_Explorer</tab>

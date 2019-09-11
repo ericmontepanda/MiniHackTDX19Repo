@@ -26,6 +26,45 @@
             "c/lWC": [
                 "../lWC/lWC.js"
             ],
+            "c/pfCustomObjects": [
+                "../pfCustomObjects/pfCustomObjects.js"
+            ],
+            "c/pfPermSet": [
+                "../pfPermSet/pfPermSet.js"
+            ],
+            "c/pfPermissions": [
+                "../pfPermissions/pfPermissions.js"
+            ],
+            "c/pfProfile": [
+                "../pfProfile/pfProfile.js"
+            ],
+            "c/pfRecordType": [
+                "../pfRecordType/pfRecordType.js"
+            ],
+            "c/pfSchemExtractor": [
+                "../pfSchemExtractor/pfSchemExtractor.js"
+            ],
+            "c/pfSchemaExtractForm": [
+                "../pfSchemaExtractForm/pfSchemaExtractForm.js"
+            ],
+            "c/pfSchemaExtractorFls": [
+                "../pfSchemaExtractorFls/pfSchemaExtractorFls.js"
+            ],
+            "c/pfUserStatChar2": [
+                "../pfUserStatChar2/pfUserStatChar2.js"
+            ],
+            "c/pfUserStatChart": [
+                "../pfUserStatChart/pfUserStatChart.js"
+            ],
+            "c/pfUserStatContainer": [
+                "../pfUserStatContainer/pfUserStatContainer.js"
+            ],
+            "c/pfUserStatInfo": [
+                "../pfUserStatInfo/pfUserStatInfo.js"
+            ],
+            "c/pf_Custom_Object_LWC": [
+                "../pf_Custom_Object_LWC/pf_Custom_Object_LWC.js"
+            ],
             "c/productList": [
                 "../productList/productList.js"
             ],
@@ -49,51 +88,6 @@
             ],
             "c/wordcloud": [
                 "../wordcloud/wordcloud.js"
-            ],
-            "c/PF_Custom_Object_LWC": [
-                "../PF_Custom_Object_LWC/PF_Custom_Object_LWC.js"
-            ],
-            "c/pF_Custom_Object_LWC": [
-                "../pF_Custom_Object_LWC/pF_Custom_Object_LWC.js"
-            ],
-            "c/pf_Custom_Object_LWC": [
-                "../pf_Custom_Object_LWC/pf_Custom_Object_LWC.js"
-            ],
-            "c/pfSchemExtractor": [
-                "../pfSchemExtractor/pfSchemExtractor.js"
-            ],
-            "c/pfSchemaExtractForm": [
-                "../pfSchemaExtractForm/pfSchemaExtractForm.js"
-            ],
-            "c/pfSchemaExtractorFLS": [
-                "../pfSchemaExtractorFLS/pfSchemaExtractorFLS.js"
-            ],
-            "c/pfSchemaExtractorFls": [
-                "../pfSchemaExtractorFls/pfSchemaExtractorFls.js"
-            ],
-            "c/pfPermissions": [
-                "../pfPermissions/pfPermissions.js"
-            ],
-            "c/pfProfile": [
-                "../pfProfile/pfProfile.js"
-            ],
-            "c/pfPermSet": [
-                "../pfPermSet/pfPermSet.js"
-            ],
-            "c/pfRecordType": [
-                "../pfRecordType/pfRecordType.js"
-            ],
-            "c/pfCustomObjects": [
-                "../pfCustomObjects/pfCustomObjects.js"
-            ],
-            "c/pfUserStatContainer": [
-                "../pfUserStatContainer/pfUserStatContainer.js"
-            ],
-            "c/pfUserStatChart": [
-                "../pfUserStatChart/pfUserStatChart.js"
-            ],
-            "c/pfUserStatInfo": [
-                "../pfUserStatInfo/pfUserStatInfo.js"
             ]
         },
         "experimentalDecorators": true

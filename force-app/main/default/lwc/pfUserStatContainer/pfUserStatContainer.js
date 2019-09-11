@@ -1,18 +1,30 @@
 import {
-    LightningElement, track, wire
+    LightningElement,
+    track,
+    wire
 } from 'lwc';
-
+import {
+    registerListener
+} from 'c/pubsub';
+import {
+    CurrentPageReference
+} from 'lightning/navigation';
 
 export default class PfUserStatContainer extends LightningElement {
     @track profileName = 'No Profile Selected';
-    @track selectedProfId = '';
-    @track selectedProfVal = '';
+    @track profileId = '';
+    @track profileCount = '';
+    @wire(CurrentPageReference) pageRef;
 
-    objSelected(event) {
-        console.log('stringify ' + JSON.stringify(event));
-        this.selectedProf = event.detail.profileName;
-        this.selectedProfId = event.detail.profileCount;
-        this.selectedProfVal = event.detail.pofileId;
+    profileSelected(event) {
+        debugger;
+        console.log('startging');
+        alert('hello worlds' +this.event);
+        debugger;
+        //console.log('stringify ' + JSON.stringify(event));
+        //this.objectAPIName = event.detail.objectAPIName;
     }
+
+    
 
 }
